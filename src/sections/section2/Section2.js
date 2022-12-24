@@ -6,7 +6,7 @@ import file4 from '../../assets/images/file4.png';
 
 const Section2 = () => {
   return (
-    <div className='codeutsava__section2'>
+    <div className='codeutsava__section2' id="aboutus">
         <div className='codeutsava__section2-body'>
             <div className='codeutsava__section2-title'>
             About Us
