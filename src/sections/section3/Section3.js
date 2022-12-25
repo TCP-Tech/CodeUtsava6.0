@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Section3.css';
-import file5 from '../../assets/images/file5.png';
+import Event from '../../components/event/Event';
 
 export default class Section1 extends Component {
   render() {
@@ -11,58 +11,10 @@ export default class Section1 extends Component {
                 Events
             </div>
             <div className="codeutsava__section3-menu">
-                <div className="codeutsava__section3-card">
-                    <div className="codeutsava__section3-image">
-                        <img class='codeutsava__section3-image-element' src={file5}></img>
-                    </div>
-                    <div className="codeutsava__section3-cardtitle">
-                        Coding Contest
-                    </div>
-                    <div className="codeutsava__section3-line">
-                    </div>
-                    <div className="codeutsava__section3-carddetails">
-                        14th February
-                    </div>
-                </div>
-                <div className="codeutsava__section3-card">
-                    <div className="codeutsava__section3-image">
-                        <img class='codeutsava__section3-image-element' src={file5}></img>
-                    </div>
-                    <div className="codeutsava__section3-cardtitle">
-                        Coding Contest
-                    </div>
-                    <div className="codeutsava__section3-line">
-                    </div>
-                    <div className="codeutsava__section3-carddetails">
-                        14th February
-                    </div>
-                </div>
-                <div className="codeutsava__section3-card card-hidden">
-                    <div className="codeutsava__section3-image">
-                        <img class='codeutsava__section3-image-element' src={file5}></img>
-                    </div>
-                    <div className="codeutsava__section3-cardtitle">
-                        Coding Contest
-                    </div>
-                    <div className="codeutsava__section3-line">
-                    </div>
-                    <div className="codeutsava__section3-carddetails">
-                        14th February
-                    </div>
-                </div>
-                <div className="codeutsava__section3-card card-hidden">
-                    <div className="codeutsava__section3-image">
-                        <img class='codeutsava__section3-image-element' src={file5}></img>
-                    </div>
-                    <div className="codeutsava__section3-cardtitle">
-                        Coding Contest
-                    </div>
-                    <div className="codeutsava__section3-line">
-                    </div>
-                    <div className="codeutsava__section3-carddetails">
-                        14th February
-                    </div>
-                </div>
+                <Event/>
+                <Event/>
+                <Event/>
+                <Event/>
             </div>
             <div className="codeutsava__section3-slider">
                 <div className="larr">&larr;</div>
