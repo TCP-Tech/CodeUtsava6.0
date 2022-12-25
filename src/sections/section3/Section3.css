@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.codeutsava__section3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;   
+    color: white;
+    font-family: 'Poppins'; 
+}
+
+.codeutsava__section3-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.codeutsava__section3-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* background-color: red; */
+}
+
+.codeutsava__section3-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.codeutsava__section3-card{
+    /* background-color: blueviolet; */
+    padding: 1rem 2rem;
+    padding-bottom: 0;
+    margin: 0 1rem;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.codeutsava__section3-cardtitle{
+    font-weight:bolder;
+    margin: 0.5rem 0;
+}
+
+.codeutsava__section3-line{
+    border: 0.1px solid rgb(230, 230, 230);
+    margin: 0.5rem 0;
+    font-weight: lighter;
+}
+
+.codeutsava__section3-carddetails{
+    margin: 0.5rem 0;
+    color: rgb(220, 220, 220);
+}
+
+.codeutsava__section3-image-element{
+    width: 100%;
+    border-radius: 11px;
+}
+
+.codeutsava__section3-image-element:hover{
+    box-shadow: 2px 2px 2px 2px rgb(34, 34, 34);
+}
+
+.codeutsava__section3-slider{
+    /* background-color: antiquewhite; */
+    width: 95%;
+    margin: 0 10rem;
+    /* color: black; */
+}
+
+.larr{
+    float: left;
+    font-weight: bolder;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.rarr{
+    float: right;
+    font-weight: bolder;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media(width<900px){
+    .card-hidden{
+        display: none;
+    }
+}
