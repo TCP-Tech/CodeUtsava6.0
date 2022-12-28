@@ -4,7 +4,7 @@ import "./Section6.css";
 
 import sponsers from "../../assets/data/sponsersData.js";
 
-const Section5 = () => {
+const Section6 = () => {
   return (
     <div className="codeutsava__section5" id="sponsers">
       <div className="codeutsava__section5-body">
@@ -52,4 +52,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default Section6;
