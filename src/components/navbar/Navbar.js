@@ -18,10 +18,13 @@ export default class Navbar extends Component {
                 </div></a>  
             <a href='#events'><div className='codeutsava__navbar-menu-heading'>
                     Events
-                </div></a>  
-                <div className='codeutsava__navbar-menu-heading'>
+                </div></a>
+            <div className='codeutsava__navbar-menu-heading'>
                     Sponsors
-                </div>
+            </div>
+            <a href='#speakers'><div className='codeutsava__navbar-menu-heading'>
+                    Speakers
+                </div></a>
                 <div className='codeutsava__navbar-menu-heading'>
                     Team
                 </div>
