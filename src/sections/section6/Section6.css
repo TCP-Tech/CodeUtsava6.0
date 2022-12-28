@@ -49,38 +49,30 @@
   text-align: center;
 }
 
-.codeutsava__section5-sponser-platnium {
+.codeutsava__section5-sponser-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+  border-radius: 20px;
+  gap: 3rem;
+  width: 100%;
+}
+
+.platinum{
   border: 1px solid #e5e4e2;
-  padding: 2rem;
-  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
-  border-radius: 20px;
-  gap: 3rem;
 }
 
-.codeutsava__section5-sponser-gold {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.gold {
   border: 1px solid #FFD700;
-  padding: 2rem;
-  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
-  border-radius: 20px;
-  gap: 3rem;
 }
 
-.codeutsava__section5-sponser-silver {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+.silver {
   border: 1px solid #C0C0C0;
-  padding: 2rem;
-  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
-  border-radius: 20px;
-  gap: 3rem;
+}
+
+.bronze{
+  border: 1px solid #C67B30;
 }
