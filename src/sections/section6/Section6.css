@@ -1,18 +1,18 @@
-.codeutsava__section5 {
+.codeutsava__section6 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: "Poppins";
   color: white;
 }
 
-.codeutsava__section5-body {
+.codeutsava__section6-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.codeutsava__section5-title {
+.codeutsava__section6-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -24,7 +24,7 @@
   color: white;
 }
 
-.codeutsava__section5-content {
+.codeutsava__section6-content {
   font-style: normal;
   font-size: 24px;
   width: 85%;
@@ -33,7 +33,7 @@
   letter-spacing: -1px;
 }
 
-.codeutsava__section5-sponsers {
+.codeutsava__section6-sponsers {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,14 +42,14 @@
   gap: 4rem;
 }
 
-.codeutsava__section5-sponser-title {
+.codeutsava__section6-sponser-title {
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
 }
 
-.codeutsava__section5-sponser-list {
+.codeutsava__section6-sponser-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
