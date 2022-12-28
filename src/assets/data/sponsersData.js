@@ -1,10 +1,10 @@
-import sponser1 from "../images/file10.png";
-import sponser2 from "../images/file11.png";
-import sponser3 from "../images/file12.png";
-import sponser4 from "../images/file13.png";
-import sponser5 from "../images/file14.png";
-import sponser6 from "../images/file15.png";
-import sponser7 from "../images/file16.png";
+import sponser1 from "../images/sponsers/sponser1.png";
+import sponser2 from "../images/sponsers/sponser2.png";
+import sponser3 from "../images/sponsers/sponser3.png";
+import sponser4 from "../images/sponsers/sponser4.png";
+import sponser5 from "../images/sponsers/sponser5.png";
+import sponser6 from "../images/sponsers/sponser6.png";
+import sponser7 from "../images/sponsers/sponser7.png";
 
 const platinum = [
   {
