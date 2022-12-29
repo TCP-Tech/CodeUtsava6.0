@@ -3,13 +3,13 @@ import { useState } from "react";
 import { faqs } from "./faqs";
 import AccordionItem from "./Section7-AccordianItem"
 const Accordion = () => {
-    const [clicked, setClicked] = useState("0");
+    const [activeAccordian, setActiveAccordian] = useState(null);
    
     const handleToggle = (index) => {
-     if (clicked === index) {
-      return setClicked("0");
+     if (activeAccordian === index) {
+      return setActiveAccordian(null);
      }
-     setClicked(index);
+     setActiveAccordian(index);
     };
    
     return (
@@ -18,6 +18,7 @@ const Accordion = () => {
        <AccordionItem
         onToggle={() => handleToggle(index)}
         faq = {faq}
+        isActive = {index===activeAccordian}
        />
       ))}
      </ul>
