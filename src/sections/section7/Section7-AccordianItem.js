@@ -1,34 +1,26 @@
 import { useState } from "react";
 import { useRef } from "react";
 
-const AccordionItem = ({ faq }) => {
+const AccordionItem = ({ faq , onToggle, isActive}) => {
 
-  const [clicked, setClicked] = useState(false);
   const contentEl = useRef();
 
-  const { question, answer } = faq;
-
-  const handleToggle = () => {
-    setClicked((prev) => !prev);
-  };
-
   return (
-    <li className={`section7-accordion_item ${clicked ? "active" : ""}`}>
-      <button className="section7-button" onClick={handleToggle}>
-        {question}
-        <span className="section7-control">{clicked ? "—" : "+"} </span>
+    <li className={`section7-accordion_item ${isActive ? "active" : ""}`}>
+      <button className="section7-button" onClick={onToggle}>
+        <div className="section7-question"> {faq.question} </div> 
+        <span className="section7-control">{isActive ? "—" : "+"} </span>
       </button>
-
       <div
         ref={contentEl}
         className="section7-answer_wrapper"
         style={
-          clicked
+          isActive
             ? { height: contentEl.current.scrollHeight }
             : { height: "0px" }
         }
       >
-        <div className="section7-answer">{answer}</div>
+        <div className="section7-answer">{faq.answer}</div>
       </div>
     </li>
   );
