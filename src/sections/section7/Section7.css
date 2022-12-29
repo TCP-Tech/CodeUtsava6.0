@@ -34,7 +34,7 @@
 .codeutsava__section7-content{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.5px;
     padding: 0 7%;
@@ -55,7 +55,7 @@
 .codeutsava__section7-questions{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.5px;
     text-align: center;
@@ -73,10 +73,11 @@
 
 .section7-accordion_item {
   border-bottom: 1px solid #ffffff;
+  width: 40rem;
 }
 
 .section7-button {
-  font-size: 25px;
+  font-size: 32px;
   background-color: #15131c;
   color: #fff;
   text-align: left;
@@ -95,16 +96,24 @@
   font-size: 20px;
 }
 
+.section-question{
+  font-size: 32px;
+}
+
+
 .section7-answer {
   background-color: #15131c;
   padding: 20px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: normal;
 }
 
 /* activate toggle */
 .section7-accordion_item.active .button {
   background-color: #15131c;
+}
+.section7-answer.inactive {
+  display: none;
 }
 .section7-answer_wrapper {
   height: 0;
