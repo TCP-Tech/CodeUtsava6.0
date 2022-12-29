@@ -22,23 +22,23 @@
 }
 
 .codeutsava__section7-title{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 82px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 3%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 .codeutsava__section7-content{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    padding: 0 7%;
-    text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  padding: 0 7%;
+  text-align: center;
 }
 .codeutsava__section7-part2{
     display: flex;
@@ -77,11 +77,14 @@
 }
 
 .section7-button {
+  font-style: normal;
+  font-weight: 500;
   font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1px;
   background-color: #15131c;
   color: #fff;
   text-align: left;
-  font-weight: 300;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -93,10 +96,6 @@
 }
 
 .section7-control {
-  font-size: 20px;
-}
-
-.section-question{
   font-size: 32px;
 }
 
@@ -111,9 +110,6 @@
 /* activate toggle */
 .section7-accordion_item.active .button {
   background-color: #15131c;
-}
-.section7-answer.inactive {
-  display: none;
 }
 .section7-answer_wrapper {
   height: 0;
