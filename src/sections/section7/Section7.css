@@ -1,0 +1,118 @@
+.codeutsava__section7 {
+    /* display: flex; */
+    padding-top: 2rem; 
+    color: white;
+    font-family: 'Poppins'; 
+    margin: 0;
+}
+
+.codeutsava__section7-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.codeutsava__section7-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.codeutsava__section7-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.codeutsava__section7-content{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  padding: 0 7%;
+  text-align: center;
+}
+.codeutsava__section7-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 10;
+    transform: translateY(-7rem);
+}
+.codeutsava__section7-image{
+    /* transform: translateY(4rem); */
+    z-index: 10;
+}
+.codeutsava__section7-questions{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: -20px 400px 0 0;
+} 
+.section7-heading {
+  font-size: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section7-accordion {
+  list-style: none;
+}
+
+.section7-accordion_item {
+  border-bottom: 1px solid #ffffff;
+  width: 40rem;
+}
+
+.section7-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  background-color: #15131c;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.section7-control {
+  font-size: 32px;
+}
+
+
+.section7-answer {
+  background-color: #15131c;
+  padding: 20px;
+  font-size: 20px;
+  line-height: normal;
+}
+
+/* activate toggle */
+.section7-accordion_item.active .button {
+  background-color: #15131c;
+}
+.section7-answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
