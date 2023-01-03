@@ -2,8 +2,9 @@ import React from 'react'
 
 import './Section7.css';
 
-import file7 from '../../assets/images/Section7-Image.png';
-import AccordionDiv from './Section7-Accordian';
+import file10 from '../../assets/images/file10.png';
+import AccordionDiv from '../../components/faq/QuestionAccordian';
+
 const Section7 = () => {
   return (
     <div className='codeutsava__section7' id="faq">
@@ -17,8 +18,8 @@ const Section7 = () => {
                 </div>
             </div>
             <div className='codeutsava__section7-part2'>      
-                <div className='codeutsava_section7-image'>
-                    <img  alt="men" src = {file7}  />
+                <div className='codeutsava__section7-image'>
+                    <img  alt="men" src = {file10}/>
                 </div>
                 <div className='codeutsava__section7-questions'>
                     <AccordionDiv/>
