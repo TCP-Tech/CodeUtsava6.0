@@ -19,7 +19,7 @@ const Section8 = () => {
       if (!show) setVisible(false);
     };
 
-    const style = { animation: `${show ? "fadeIn 1.5s" : "fadeOut 0.2s"}` };
+    const style = { animation: `${show ? "fadeIn 1.5s ease-in-out" : "fadeOut 0.5s ease-in-out"}` };
     const fadeProps = {
       style,
       onAnimationEnd,

@@ -1,21 +1,15 @@
 .codeutsava__section8-problems-container1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
   gap: 4rem;
-  width: 100%;
+  width: 80%;
 }
 
 .codeutsava__section8-problems-container2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
   gap: 4rem;
-  width: 100%;
+  width: 80%;
   transition: display 3s ease-in-out;
   margin-top: 4rem;
 }
@@ -34,19 +28,10 @@
     opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
-.codeutsava__section8-card-body {
-  width: 40%;
-}
-
-.codeutsava__section8-card {
-  padding-bottom: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
 .codeutsava__section8-cardtitle {
   font-weight: 600;
