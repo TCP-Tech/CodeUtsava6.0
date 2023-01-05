@@ -26,7 +26,7 @@
 @keyframes fadeOut {
   0% {
     opacity: 1;
-  }
+  }  
   100% {
     opacity: 0;
   }
@@ -56,6 +56,8 @@
 .codeutsava__section8-image {
   transition: all 0.2s ease-in-out;
   width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
 
 .codeutsava__section8-image:hover {
