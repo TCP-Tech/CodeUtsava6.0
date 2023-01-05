@@ -8,6 +8,7 @@ import Section3 from '../../sections/section3/Section3';
 import Section4 from '../../sections/section4/Section4';
 import Section6 from '../../sections/section6/Section6';
 import Section7 from '../../sections/section7/Section7';
+import Section9 from '../../sections/section9/Section9';
 export default class HomePage extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ export default class HomePage extends Component {
         <Section4/>
         <Section6/>
         <Section7/>
+        <Section9/>
       </div>
     )
   }
