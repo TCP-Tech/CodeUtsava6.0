@@ -1,50 +1,80 @@
-.codeutsava__section8-problems-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4rem;
-    width: 100%; 
+.codeutsava__section8-problems-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 100%;
 }
 
-.codeutsava__section8-card-body{
-    width: 40%;
+.codeutsava__section8-problems-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 100%;
+  transition: display 3s ease-in-out;
+  margin-top: 4rem;
 }
 
-.codeutsava__section8-card{
-    padding-bottom: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.codeutsava__section8-cardtitle{
-    font-weight:600;
-    margin: 0.5rem 0;
-    min-height: 3rem;
-    display: flex;
-    align-items: center;
-    line-height: 24px;
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.codeutsava__section8-line{
-    border: 0.1px solid rgb(230, 230, 230);
-    margin: 0.5rem 0;
-    font-weight: lighter;
+.codeutsava__section8-card-body {
+  width: 40%;
 }
 
-.codeutsava__section8-carddetails{
-    margin: 1rem 0;
-    color: rgb(220, 220, 220);
+.codeutsava__section8-card {
+  padding-bottom: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.codeutsava__section8-image{
-    transition: all 0.2s ease-in-out;
-    width: 100%;
+.codeutsava__section8-cardtitle {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
 }
 
-.codeutsava__section8-image:hover{
-    transform: scale(0.98);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+.codeutsava__section8-line {
+  border: 0.1px solid rgb(230, 230, 230);
+  margin: 0.5rem 0;
+  font-weight: lighter;
+}
+
+.codeutsava__section8-carddetails {
+  margin: 1rem 0;
+  color: rgb(220, 220, 220);
+}
+
+.codeutsava__section8-image {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.codeutsava__section8-image:hover {
+  transform: scale(0.98);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }

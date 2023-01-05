@@ -1,52 +1,72 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import "./Section8.css";
 
 import problems from "../../assets/data/problemsData.js";
 import ProblemCard from "../../components/problemCard/ProblemCard";
 
-const initialProblem = 2
+const initialProblem = 2;
 
 const Section8 = () => {
-  const [next, setNext] = useState(initialProblem);
-  const handleMoreProblems = () => {
-    setNext(problems.length);
+  const useFade = (initial) => {
+    const [show, setShow] = useState(initial);
+    const [isVisible, setVisible] = useState(show);
+    useEffect(() => {
+      if (show) setVisible(true);
+    }, [show]);
+    const onAnimationEnd = () => {
+      if (!show) setVisible(false);
+    };
+
+    const style = { animation: `${show ? "fadeIn 1.5s" : "fadeOut 0.2s"}` };
+    const fadeProps = {
+      style,
+      onAnimationEnd,
+    };
+    return [isVisible, setShow, fadeProps];
   };
-  const handleLessProblems = () => {
-    setNext(initialProblem);
-  };
-  console.log(next);
+  const [isVisible, setVisible, fadeProps] = useFade(false);
+
   return (
     <div className="codeutsava__section8" id="problems">
       <div className="codeutsava__section8-body">
         <div className="codeutsava__section8-title">Problem Statements</div>
         <div className="codeutsava__section8-problems">
-          <div className="codeutsava__section8-problems-container">
-            {problems.slice(0,next).map((problem, index) => (
-              <ProblemCard key={index}
+          <div className="codeutsava__section8-problems-container1">
+            {problems.slice(0, initialProblem).map((problem, index) => (
+              <ProblemCard
+                key={index}
                 img={problem.img}
                 title={problem.title}
                 statement={problem.statement}
               />
             ))}
           </div>
+          {isVisible && (
+            <div
+              className="codeutsava__section8-problems-container2"
+              {...fadeProps}
+            >
+              {problems
+                .slice(initialProblem, problems.length)
+                .map((problem, index) => (
+                  <ProblemCard
+                    key={index}
+                    img={problem.img}
+                    title={problem.title}
+                    statement={problem.statement}
+                  />
+                ))}
+            </div>
+          )}
         </div>
-        {
-            next<problems.length ? (
-                <button
-            className="codeutsava__section8-button"
-            onClick={handleMoreProblems}
-          >
-            Load more
-          </button>
-            ) : <button
-            className="codeutsava__section8-button"
-            onClick={handleLessProblems}
-          >
-            Show less
-          </button>
-        }
+        <button
+          className="codeutsava__section8-button"
+          onClick={() => setVisible(!isVisible)}
+        >
+          {isVisible === false ? "Load More" : "Show Less"}
+        </button>
       </div>
     </div>
   );

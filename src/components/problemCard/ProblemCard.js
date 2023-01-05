@@ -20,7 +20,7 @@ const ProblemCard = ({img,title,statement}) => {
   return (
     <div className="codeutsava__section8-card-body">
       <div className="codeutsava__section8-card">
-          <img class='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
+          <img className='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
           <div className="codeutsava__section8-cardtitle">
               {title}
           </div>

@@ -16,6 +16,7 @@ const Accordion = () => {
      <ul className="section7-accordion">
       {faqs.map((faq, index) => (
        <AccordionItem
+        key={index}
         onToggle={() => handleToggle(index)}
         faq = {faq}
         isActive = {index===activeAccordian}
