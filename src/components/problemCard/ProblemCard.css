@@ -58,6 +58,7 @@
   width: 100%;
   height: 20rem;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .codeutsava__section8-image:hover {
