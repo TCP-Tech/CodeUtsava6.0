@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './Navbar.css';
-import logo from "../../assets/images/logo.png";
+import codeutsava from "../../assets/images/codeutsava.png";
+import tcp from "../../assets/images/tcp.png";
 export default class Navbar extends Component {
   render() {
     return (
       <div className='codeutsava__navbar'>
         <div className='codeutsava__navbar-body'>
             <div className='codeutsava__navbar-logo'>
-              <img src={logo} className='codeutsava__navbar-logo'/>
+              <img src={codeutsava} className='codeutsava__navbar-logo'/>
             </div>
             <div className='codeutsava__navbar-menu'>
             <a><div className='codeutsava__navbar-menu-heading'>
@@ -32,6 +33,9 @@ export default class Navbar extends Component {
                     Contact Us
                 </div>
 
+            </div>
+            <div className='codeutsava__navbar-logo'>
+              <img src={tcp} className='codeutsava__navbar-logo'/>
             </div>
         </div>
 
