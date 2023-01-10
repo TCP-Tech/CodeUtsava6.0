@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import { faqs } from "./faqs";
-import AccordionItem from "./Section7-AccordianItem"
+import faqs from "../../assets/data/faqData";
+import AccordionItem from "./AnswerAccordian"
 const Accordion = () => {
     const [activeAccordian, setActiveAccordian] = useState(null);
    
@@ -16,6 +16,7 @@ const Accordion = () => {
      <ul className="section7-accordion">
       {faqs.map((faq, index) => (
        <AccordionItem
+        key={index}
         onToggle={() => handleToggle(index)}
         faq = {faq}
         isActive = {index===activeAccordian}

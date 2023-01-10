@@ -9,7 +9,7 @@ const AccordionItem = ({ faq , onToggle, isActive}) => {
     <li className={`section7-accordion_item ${isActive ? "active" : ""}`}>
       <button className="section7-button" onClick={onToggle}>
         <div className="section7-question"> {faq.question} </div> 
-        <span className="section7-control">{isActive ? "—" : "+"} </span>
+        <span className="section7-control">{isActive ? "-" : "+"} </span>
       </button>
       <div
         ref={contentEl}
