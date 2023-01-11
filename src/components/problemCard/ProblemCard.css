@@ -91,3 +91,15 @@
   cursor: pointer;
   color: white;
 }
+
+
+@media screen and (max-width: 650px) {
+  .codeutsava__section8-problems-container1 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+
+  .codeutsava__section8-problems-container2 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+}
+

@@ -2,10 +2,10 @@ import React from "react";
 
 import './SpeakerCard.css'
 
-import facebookImg from '../../assets/images/facebook.png'
-import twitterImg from '../../assets/images/twitter.png'
-import linkedinImg from '../../assets/images/linkedin.png'
-import githubImg from '../../assets/images/github.png'
+import facebookImg from '../../assets/images/facebook.svg'
+import twitterImg from '../../assets/images/twitter.svg'
+import linkedinImg from '../../assets/images/linkedin.svg'
+import githubImg from '../../assets/images/github.svg'
 
 const SpeakerCard = ({img, name, position, description, facebook, twitter, linkedin, github}) => {
   return (
@@ -20,16 +20,16 @@ const SpeakerCard = ({img, name, position, description, facebook, twitter, linke
       <div className="codeutsava__section4-speaker-contact">
         <h3>Contact</h3>
         <div className="codeutsava__section4-speaker-contact-links">
-          <a href={facebook}>
+          <a className="codeutsava__section4-speaker-contact-links-image" href={facebook}>
             <img src={facebookImg} />
           </a>
-          <a href={twitter}>
+          <a className="codeutsava__section4-speaker-contact-links-image" href={twitter}>
             <img src={twitterImg} />
           </a>
-          <a href={linkedin}>
+          <a className="codeutsava__section4-speaker-contact-links-image" href={linkedin}>
             <img src={linkedinImg} />
           </a>
-          <a href={github}>
+          <a className="codeutsava__section4-speaker-contact-links-image" href={github}>
             <img src={githubImg} />
           </a>
         </div>

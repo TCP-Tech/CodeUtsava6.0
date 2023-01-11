@@ -56,3 +56,9 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+    .codeutsava__section3-card{
+        transform: scale(0.9);
+    }
+}
