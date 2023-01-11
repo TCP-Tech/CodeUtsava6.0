@@ -1,8 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 
+import { motion, AnimatePresence } from 'framer-motion'
+
 import './ProblemCard.css'
-import ProblemModal from '../problemModal/ProblemModal'
+import cross from '../../assets/images/cross.png'
 
 const ProblemCard = ({img,title,statement}) => {
 
@@ -15,10 +17,10 @@ const ProblemCard = ({img,title,statement}) => {
     return setModal(true)
   }
 
-  document.body.style.overflowY = !modal ? 'scroll' : 'hidden';
+  document.body.style.overflow = !modal ? 'visible' : 'hidden';
 
   return (
-    <div className="codeutsava__section8-card-body">
+    <div>
       <div className="codeutsava__section8-card">
           <img className='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
           <div className="codeutsava__section8-cardtitle">
@@ -30,9 +32,25 @@ const ProblemCard = ({img,title,statement}) => {
               {statement}
           </div>
       </div>
-      {
-        modal === true ? <ProblemModal img={img} title={title} statement={statement} hide={() => setModal(false)}/> : ''
-      }
+
+      {/* modal */}
+
+      <AnimatePresence>
+        {
+          modal && 
+          <motion.div 
+            initial={{ scaleX:0, scaleY:0.01 }}
+            animate={{ scaleX: [0, 1, 1], scaleY: [0.005, 0.005, 1],}}
+            transition={{ duration: 0.8, ease: [0.165, 0.84, 0.44, 1],}}
+            exit={{scaleX: [1, 1, 0], scaleY: [1, 0.005, 0.005] }}
+            className="codeutsava__section8-problemModal-body">
+              <img className="problemModal-close" src={cross} onClick={() => setModal(false)}/>
+              <h1>{title}</h1>
+              <p>{statement}</p>
+              <img src={img}/>
+          </motion.div>
+        }
+      </AnimatePresence>
     </div>
   )
 }

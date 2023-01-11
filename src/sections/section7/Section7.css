@@ -63,7 +63,7 @@
 }
 
 .section7-button {
-  background-color: #15131c;
+  background-color: black;
   color: #fff;
   text-align: left;
   display: flex;
@@ -81,7 +81,7 @@
 }
 
 .section7-answer {
-  background-color: #15131c;
+  background-color: black;
   padding: 18px 0px;
   padding-top: 4px;
   font-size: 20px;
