@@ -97,37 +97,37 @@ const Navbar = () => {
         </div>
         <ul className={`codeutsava__navbar-hamburger-navlist ${isOpen?`activeMenu slide-bottom`:``}`}>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#home"> 
+                <a href="#home" onClick={toggleMenu}> 
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">Home</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#aboutus">
+                <a href="#aboutus" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">About Us</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#events">
+                <a href="#events" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">Events</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#speakers">
+                <a href="#speakers" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">Speakers</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#sponsers">
+                <a href="#sponsers" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">Sponsors</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#faq">
+                <a href="#faq" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">FAQ</h3>
                 </a>
               </li>
               <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#contactus">
+                <a href="#contactus" onClick={toggleMenu}>
                   <h3 className="codeutsava__navbar-hamburger-menu-heading">
                     Contact Us
                   </h3>
