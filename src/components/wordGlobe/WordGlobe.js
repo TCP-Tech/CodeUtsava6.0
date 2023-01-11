@@ -1,48 +1,44 @@
-import React from 'react'
-import { useEffect } from 'react'
+import React from "react";
+import { useEffect } from "react";
 
-import './WordGlobe.css'
+import "./WordGlobe.css";
 
-import TagCloud from "TagCloud"
+import TagCloud from "@frank-mayer/react-tag-cloud";
 
 const WordGlobe = () => {
-
-    useEffect(() => {
-        return () => {
-        const container='.tagcloud'
-        const texts = [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "ReactJs",
-            "NodeJs",
-            "Python",
-            "Django",
-            "SQL",
-            "ExpressJs",
-            "Figma",
-            "CodeEase",
-            "Hackathon",
-            "PassCode",
-            "Quiz",
-        ]
-
-        const options = {
-            radius: 300,
-            maxSpeed: "normal",
-            initSpeed: "normal",
-            keep: "true",
-        }
-
-        TagCloud(container,texts,options)
-    }},[])
   return (
     <>
-        <div className="text-sphere">
-            <span className="tagcloud"></span>
-        </div>
+      <div className="text-sphere">
+        <span className="tagcloud">
+          <TagCloud
+            options={(w: Window & typeof globalThis): TagCloudOptions => ({
+              radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
+              maxSpeed: "fast",
+            })}
+            onClick={(tag: string, ev: MouseEvent) => alert(tag)}
+            onClickOptions={{ passive: true }}
+          >
+            {[
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "ReactJs",
+              "NodeJs",
+              "Python",
+              "Django",
+              "SQL",
+              "ExpressJs",
+              "Figma",
+              "CodeEase",
+              "Hackathon",
+              "PassCode",
+              "Quiz",
+            ]}
+          </TagCloud>
+        </span>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default WordGlobe
+export default WordGlobe;
