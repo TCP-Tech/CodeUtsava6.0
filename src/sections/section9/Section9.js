@@ -11,7 +11,7 @@ const Section9 = ()=> {
         <div className="codeutsava_section9">
             <div className="codeutsava_section9-title">
                 <div className="codeutsava_section9-title1">Prizes</div>
-                <div className="codeutsava_section9-title2">Win excitinng prizes worth upto 8 lakhs</div>
+                <div className="codeutsava_section9-title2">Win exciting prizes worth upto 8 lakhs</div>
             </div>
             <div className="codeutsava_section9-body">
                 <div className="codeutsava_section9-description">
