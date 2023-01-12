@@ -83,7 +83,7 @@
         transform: scale(0.8);
     }
     .codeutsava__section2-menu{
-        gap: 0;
+        gap: 1rem;
         flex-direction: column;
     }
     .codeutsava__section2-title{
