@@ -1,0 +1,102 @@
+.codeutsava__section6 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Poppins";
+  color: white;
+}
+
+.codeutsava__section6-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.codeutsava__section6-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 82px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.codeutsava__section6-content {
+  font-style: normal;
+  font-size: 24px;
+  width: 85%;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.codeutsava__section6-sponsers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  gap: 4rem;
+}
+
+.codeutsava__section6-sponser-title {
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.codeutsava__section6-sponser-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 40px;
+  gap: 3rem;
+  width: 100%;
+}
+
+.platinum{
+  transition: all .8s ease;
+  border: 2px solid rgba(18, 17, 39, 0.08);
+}
+
+.platinum:hover{
+  transition: all .8s ease;
+  border: 2px solid #e5e4e2;
+}
+
+.gold{
+  transition: all .8s ease;
+  border: 2px solid rgba(18, 17, 39, 0.08);
+}
+
+.gold:hover{
+  transition: all .8s ease;
+  border: 2px solid #FFD700;
+}
+
+.silver{
+  transition: all .8s ease;
+  border: 2px solid rgba(18, 17, 39, 0.08);
+}
+
+.silver:hover{
+  transition: all .8s ease;
+  border: 2px solid #C0C0C0;
+}
+
+.bronze{
+  transition: all .8s ease;
+  border: 2px solid rgba(18, 17, 39, 0.08);
+}
+
+.bronze:hover{
+  transition: all .8s ease;
+  border: 2px solid #C67B30;
+}
+
