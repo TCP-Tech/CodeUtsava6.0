@@ -3,7 +3,7 @@ const faqs = [
   {
     question: "How do I register for the hackathon?",
     answer:
-      "Click on any Register Now button on the website. Alternatively, you can head over to Devfolio",
+      "Click on any Register Now button on the website. Alternatively, you can head over to Devfolio.",
   },
   {
     question: "What is the participation fee?",

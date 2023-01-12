@@ -3,6 +3,7 @@ import React from 'react'
 import './Section2.css';
 
 import file4 from '../../assets/images/file4.png';
+import WordGlobe from '../../components/wordGlobe/WordGlobe';
 
 const Section2 = () => {
   return (
@@ -12,11 +13,11 @@ const Section2 = () => {
             About Us
             </div>
             <div className='codeutsava__section2-menu'>
-                <div className='codeutsava__section2-image'>
-                    <img className='codeutsava__section2-image-element' src={file4}></img>
+                <div className='codeutsava__section2-wordglobe'>
+                  <WordGlobe/>
                 </div>        
                 <div className='codeutsava__section2-content'>
-                CodeUtsava 6.0 is an event being organized by Turing Club of Programmers, the Official Coding Club of NIT Raipur. It aims to foster and nurture invigorating coding culture among the students of the Institute through its Mentorship programme, workshops, and along with several other events including the annual event CodeUtsava. Students from all over India can take part in this event, attend Workshops, participate in the Hackathon, and various other coding related activities which are organized under this event.
+                  <span style={{color:"#38b6ff"}}>CodeUtsava 6.0</span> is an event being organized by Turing Club of Programmers, the Official Coding Club of NIT Raipur. It aims to foster and nurture invigorating coding culture among the students of the Institute through its Mentorship programme, workshops, and along with several other events including the annual event CodeUtsava. Students from all over India can take part in this event, attend Workshops, participate in the Hackathon, and various other coding related activities which are organized under this event.
                 </div>
             </div>
         </div>

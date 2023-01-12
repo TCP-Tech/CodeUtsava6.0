@@ -1,32 +1,37 @@
-import React, { Component } from 'react'
-import './Section1.css';
-import file0 from '../../assets/images/file0.png';
-import file1 from '../../assets/images/file1.png';
-import file2 from '../../assets/images/file2.png';
-import file3 from '../../assets/images/file3.png';
+import React, { Component } from "react";
+import "./Section1.css";
+import codeutsavaTitle from "../../assets/images/codeutsavaTitle.svg";
+import discord from "../../assets/images/discord.svg";
 
 export default class Section1 extends Component {
   render() {
     return (
-      <div className='codeutsava__section1'>
-        <div className='codeutsava__section1-body'>
-            <div className='codeutsava__section1-menu'>
-                <div className='codeutsava__section1-heading'>
-                Welcome to CodeUtsava 6.0
-                </div>
-                <div className='codeutsava__section1-subheading'>
-                    Code. Innovate. Celebrate.
-                </div>
+      <div className="codeutsava__section1" id="home">
+        <div className="codeutsava__section1-body">
+          <div className="codeutsava__section1-menu">
+            <div className="codeutsava__section1-heading">Welcome To</div>
+            <div className="codeutsava__section1-image">
+              <img src={codeutsavaTitle}></img>
             </div>
-            <div className='codeutsava__section1-image'>
-            <img className='codeutsava__section1-image-element' src={file0}></img>
-            <img className='codeutsava__section1-image-element-1' src={file1}></img>
-                
-            <img className='codeutsava__section1-image-element-2' src={file2}></img>                
-                
-            </div>        
+            <div className="codeutsava__section1-subheading">
+              Code. Innovate. Celebrate.
+            </div>
+            <div className="codeutsava__section1-para">
+              Central India's{" "}
+              <span style={{ fontWeight: "600" }}>Largest Coding Event.</span>{" "}
+              Join Us on [Dates].
+            </div>
+          </div>
+          <div className="codeutsava__section1-button-container">
+            
+            <div className="codeutsava__section1-discord">
+              <a className="codeutsava__section1-discord-link">
+                <img src={discord}/>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    )
+    );
   }
 }
