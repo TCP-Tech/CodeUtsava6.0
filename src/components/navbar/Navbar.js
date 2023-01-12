@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import "./Navbar.css";
 import codeutsava from "../../assets/images/codeutsava.png";
 import tcp from "../../assets/images/tcp.png";
+import downArrow from "../../assets/images/downArrow.svg";
+import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,8 +62,14 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="codeutsava__navbar-logo">
+          <div className="codeutsava__navbar-logo codeutsava__navbar-brochure">
             <img src={tcp} />
+            <button className="codeutsava__navbar-brochure-button">
+              <img src={downArrow}/>
+              <a href={brochure} download="Brochure">
+                BROCHURE
+              </a>
+            </button>
           </div>
         </div>
       </header>
@@ -133,6 +141,12 @@ const Navbar = () => {
                   </h3>
                 </a>
               </li>
+              <button className="codeutsava__navbar-hamburger-brochure-button codeutsava__navbar-brochure-button">
+                <img src={downArrow}/>
+                <a href={brochure} download="Brochure">
+                  Download Brochure
+                </a>
+              </button>
             </ul>
       </header>
     </div>
