@@ -141,6 +141,9 @@ li {
   .codeutsava__footer-right {
     gap: 4rem;
   }
+  .codeutsava__footer-left{
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -150,6 +153,8 @@ li {
   .codeutsava__footer-divider {
     display: none;
   }
+
+
   .codeutsava__footer-left-container1 img {
     width: 100px;
   }
