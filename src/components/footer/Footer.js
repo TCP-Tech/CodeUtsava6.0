@@ -14,7 +14,7 @@ import linkedin from '../../assets/images/linkedin.svg'
 
 const Footer = () => {
   return (
-    <div className="codeutsava__footer">
+    <div className="codeutsava__footer" id="contactus">
         <div className="codeutsava__footer-body">
             <div className="codeutsava__footer-main">
                 <div className="codeutsava__footer-left">
