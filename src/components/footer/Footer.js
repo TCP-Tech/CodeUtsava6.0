@@ -131,7 +131,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="codeutsava__footer-social-team">
-                    Architected with ❤️ by TCP Team
+                    Architected with  ❤️  by <a href="#">TCP Team</a>
                 </div>
             </div>
         </div>
