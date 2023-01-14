@@ -66,3 +66,40 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
+
+.codeutsava__section8-problemModal-body {
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.problemModal-close {
+  width: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+
+@media screen and (max-width: 650px) {
+  .codeutsava__section8-problems-container1 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+
+  .codeutsava__section8-problems-container2 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+}
+

@@ -72,9 +72,22 @@
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    padding-top: 0.5rem; 
+    padding-top: 1rem; 
+}
+
+.codeutsava__section4-speaker-contact-links-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .codeutsava__section4-speaker-contact-links img{
     cursor: pointer;
+    width: 28px;
 }
+
+@media screen and (max-width: 650px) {
+    .codeutsava__section4-speaker-card{
+        transform: scale(0.9);
+    }
+  }
