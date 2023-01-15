@@ -18,28 +18,28 @@ const Team = () => {
         <div className="codeutsava__team-members">
           {overAllCoordinaters.map((member, index) => (
             <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Head Coordinators</div>
         <div className="codeutsava__team-members">
           {headCoordinaters.map((member, index) => (
             <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Managers</div>
         <div className="codeutsava__team-members">
           {managers.map((member, index) => (
             <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Executives</div>
         <div className="codeutsava__team-members">
           {executives.map((member, index) => (
             <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+             linkedin={member.linkedin}  />
           ))}
         </div>
       </div>
