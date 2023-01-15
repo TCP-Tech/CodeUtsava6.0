@@ -9,6 +9,7 @@ import Section3 from '../../sections/section3/Section3';
 import Section4 from '../../sections/section4/Section4';
 import Section6 from '../../sections/section6/Section6';
 import Section7 from '../../sections/section7/Section7';
+import Section9 from '../../sections/section9/Section9';
 import Section8 from '../../sections/section8/Section8';
 import Footer from '../../components/footer/Footer';
 export default class HomePage extends Component {
@@ -29,6 +30,7 @@ export default class HomePage extends Component {
           <Section6/>
           <Section7/>
           <Section8/>
+          <Section9/>
         </div>
         <div className="codeutsava__footer-container">
           <Footer/>
