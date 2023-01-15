@@ -1,7 +1,7 @@
 import React from "react";
 
 import Prizes from '../../assets/data/PrizesData';
-import PrizeBox from "../../components/prizesBox/Prizebox.js";
+import PrizeBox from "../../components/prizeBox/PrizeBox.js";
 
 import './Section9.css';
 
