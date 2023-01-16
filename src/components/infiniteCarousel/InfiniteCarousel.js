@@ -4,7 +4,7 @@ import './InfiniteCarousel.css'
 
 import sponser1 from '../../assets/images/sponsers/sponser1.png'
 import sponser2 from '../../assets/images/sponsers/sponser2.png'
-import sponser3 from '../../assets/images/sponsers/sponser3.png'
+import sponser3 from '../../assets/images/sponsers/sponser3.svg'
 import sponser4 from '../../assets/images/sponsers/sponser4.png'
 import sponser5 from '../../assets/images/sponsers/sponser5.png'
 import sponser6 from '../../assets/images/sponsers/sponser6.png'
