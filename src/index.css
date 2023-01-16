@@ -16,6 +16,11 @@
   width: 5px;
 }
 
+::-webkit-scrollbar:horizontal{
+  width: 0;
+}
+
+
 ::-webkit-scrollbar-track{
   background-color: rgb(78, 82, 88,0.4);
 }
