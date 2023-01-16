@@ -13,7 +13,9 @@
     width: max-content;
 }
 
-.intro-container img{
+#root{
+    display: none;
+    opacity: 0;
 }
 
 .button {

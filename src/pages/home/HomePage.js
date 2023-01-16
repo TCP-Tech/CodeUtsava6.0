@@ -16,9 +16,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <>
-        <div className="codeutsava__navbar-container">
           <Navbar/>
-        </div>
         <div className="container mx-auto">
           <Section1/>
         </div>

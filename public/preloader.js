@@ -156,7 +156,8 @@ window.addEventListener("mousemove", function (event) {
 });
 
 let introContainer = $(".intro-container");
-let skyContainer = $("#root");
+let skyContainer = $(".sky-container");
+let roo = $("#root");
 let canv = document.getElementsByTagName("canvas");
 
 $(".shift-camera-button").click(function () {
@@ -181,9 +182,13 @@ $(".shift-camera-button").click(function () {
   introTimeline.add([
     TweenLite.to(skyContainer, 1.5, {
       opacity: 1,
-      autoAlpha: 1,
       display: "block",
-      position: "relative",
+      position: 'sticky',
+      ease: Power3.easeInOut,
+    }),
+    TweenLite.to(root, 1.5, {
+      opacity: 1,
+      display: "block", 
       ease: Power3.easeInOut,
     }),
     TweenLite.to(canv, 0.1, {
