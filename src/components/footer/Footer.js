@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="codeutsava__footer-social-links-container">
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
