@@ -16,7 +16,7 @@ const Section9 = ()=> {
             <div className="codeutsava__section9-body">
                 <div className="codeutsava__section9-description">
                     {Prizes.map((info , index ) => (
-                        <PrizeBox title = {info.title} prizeInfo = {info.prizeInfo} cashPrize = {info.cashPrize} />
+                        <PrizeBox key={index} title = {info.title} prizeInfo = {info.prizeInfo} cashPrize = {info.cashPrize} />
                     ))}
                 </div>
             </div>
