@@ -47,7 +47,14 @@
 }
 
 .codeutsava__footer-social-links-container a svg {
+  transition: all 0.2s ease-in-out;
   margin-left: 20px;
+}
+
+.codeutsava__footer-social-links-container a svg:hover{
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  fill: #fff;
 }
 
 .codeutsava__footer-social-text {
