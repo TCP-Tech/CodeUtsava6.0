@@ -34,7 +34,7 @@ function init() {
   camera.position.z = 50;
 
   renderer.setClearColor("#000000", 1.0);
-  renderer.setSize(window.innerWidth - 5, window.innerHeight - 5);
+  renderer.setSize(window.innerWidth - 7, window.innerHeight - 7);
   renderer.setPixelRatio(window.devicePixelRatio);
 
   document.body.appendChild(renderer.domElement);

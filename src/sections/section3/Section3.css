@@ -20,6 +20,10 @@
   letter-spacing: 1px;
 }
 
+.codeutsava__section3-events-container{
+  max-width: 98%;
+}
+
 .codeutsava__section3-events-container .slider .slick-list {
   margin: 0 2rem;
   box-sizing: initial;
