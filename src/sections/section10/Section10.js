@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const section10 = () => {
   return (
-    <div className="codeutsava__section10" id="problems">
+    <div className="codeutsava__section10" id="my-team">
     <div className="codeutsava__section10-body">
       <div className="codeutsava__section10-title">Wondering who all make this possible?</div>
       <button
