@@ -1,3 +1,5 @@
+import samarth from '../images/samarth_batav.jpg'
+
 const overAllCoordinaters = [
   {
     Name: "Neelesh Kumar",
@@ -31,7 +33,7 @@ const overAllCoordinaters = [
   },
   {
     Name: "Samarth Batav",
-    Photo: "",
+    Photo: samarth,
     Branch: "IT",
     "Graduation Year": 2023,
     Domain: "Lead Organizer at CodeUtsava 6.0",
