@@ -10,9 +10,9 @@ let normalizedMouse = {
 };
 
 let darkBlue = {
-  r: 56,
-  g: 182,
-  b: 255,
+  r: 7,
+  g: 11,
+  b: 18,
 };
 
 let baseColorRGB = darkBlue;
@@ -131,7 +131,7 @@ function render() {
     });
     plane.geometry.colorsNeedUpdate = true;
 
-    intersects[0].face.color.setStyle("#004AAD");
+    intersects[0].face.color.setStyle("#aaa");
     plane.geometry.colorsNeedUpdate = true;
   }
 
