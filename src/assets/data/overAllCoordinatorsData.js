@@ -1,4 +1,15 @@
+import samarth from '../images/samarth_batav.jpg'
+
 const overAllCoordinaters = [
+  {
+    Name: "Samarth Batav",
+    Photo: samarth,
+    Branch: "IT",
+    "Graduation Year": 2023,
+    Domain: "Lead Organizer at CodeUtsava 6.0",
+    Designation: "Overall Coordinator",
+    linkedin: "https://www.linkedin.com/in/samarth-batav-895555191",
+  },
   {
     Name: "Neelesh Kumar",
     Photo:
@@ -28,15 +39,6 @@ const overAllCoordinaters = [
     Domain: "Mentors (4th years HCs only)",
     Designation: "Overall Coordinator",
     linkedin: "https://www.linkedin.com/in/mahimmittal01/",
-  },
-  {
-    Name: "Samarth Batav",
-    Photo: "",
-    Branch: "IT",
-    "Graduation Year": 2023,
-    Domain: "Lead Organizer at CodeUtsava 6.0",
-    Designation: "Overall Coordinator",
-    linkedin: "https://www.linkedin.com/in/samarth-batav-895555191",
   },
 ];
 

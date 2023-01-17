@@ -10,6 +10,7 @@ import executives from "../../assets/data/executivesData";
 import TeamCard from "../../components/teamCard/TeamCard";
 import TeamCard2 from "../../components/teamCard2/TeamCard2";
 
+
 const Team = () => {
   return (
     <div className="codeutsava__team" id="speakers">

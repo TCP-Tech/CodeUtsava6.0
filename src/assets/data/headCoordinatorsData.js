@@ -1,3 +1,6 @@
+import sugandha from '../images/sugandha.jpg'
+import astitva from '../images/astitva.jpg'
+
 const headCoordinators = [
   {
     Name: "Prashant Ranjan",
@@ -121,7 +124,7 @@ const headCoordinators = [
   },
   {
     Name: "Astitva Sharma",
-    Photo: "",
+    Photo: astitva,
     Branch: "IT",
     "Graduation Year": 2023,
     Domain: "PR Head at CU 6.0",
@@ -130,7 +133,7 @@ const headCoordinators = [
   },
   {
     Name: "Sugandha Verma",
-    Photo: "",
+    Photo: sugandha,
     Branch: "ECE",
     "Graduation Year": 2023,
     Domain: "Lead Organizer at CodeUtsava 6.0",
