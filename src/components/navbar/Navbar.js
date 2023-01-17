@@ -5,6 +5,8 @@ import codeutsava from "../../assets/images/codeutsava.png";
 import tcp from "../../assets/images/tcp.png";
 import downArrow from "../../assets/images/downArrow.svg";
 import brochure from "../../assets/images/Codeutsava_Brochure_6.0.pdf";
+import { motion } from "framer-motion";
+import { headerVariants } from "../../motionUtils";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +17,13 @@ const Navbar = () => {
   }
 
   return (
-    <div className="codeutsava__navbar-container">
+    <motion.div
+      initial="hidden"
+      whileInView="show"
+      variants={headerVariants}
+      viewport={{ once: false, amount: 0.25 }}
+      className="codeutsava__navbar-container"
+    >
       <header className="codeutsava__navbar">
         <div className="codeutsava__navbar-body">
           <div className="codeutsava__navbar-logo">
@@ -34,7 +42,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="codeutsava__navbar-navitem">
-                <a href="#events" >
+                <a href="#events">
                   <h3 className="codeutsava__navbar-menu-heading">Events</h3>
                 </a>
               </li>
@@ -65,7 +73,7 @@ const Navbar = () => {
           <div className="codeutsava__navbar-logo codeutsava__navbar-brochure">
             <img src={tcp} />
             <button className="codeutsava__navbar-brochure-button">
-              <img src={downArrow}/>
+              <img src={downArrow} />
               <a href={brochure} download="Brochure">
                 BROCHURE
               </a>
@@ -73,7 +81,11 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-      <header className={`codeutsava__navbar-hamburger ${isOpen?`hamburger-open`:``}`}>
+      <header
+        className={`codeutsava__navbar-hamburger ${
+          isOpen ? `hamburger-open` : ``
+        }`}
+      >
         <div className="codeutsava__navbar-hamburger-body">
           <nav className="codeutsava__navbar-hamburger-nav">
             <div className="hamburger">
@@ -82,7 +94,7 @@ const Navbar = () => {
                 viewBox="0 0 100 100"
                 width="80"
                 ref={hamburger}
-                onClick = {toggleMenu}
+                onClick={toggleMenu}
               >
                 <path
                   className="line top"
@@ -103,53 +115,67 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-        <ul className={`codeutsava__navbar-hamburger-navlist ${isOpen?`activeMenu slide-bottom`:``}`}>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#home" onClick={toggleMenu}> 
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">Home</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#aboutus" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">About Us</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#events" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">Events</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#speakers" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">Speakers</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#sponsers" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">Sponsors</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#faq" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">FAQ</h3>
-                </a>
-              </li>
-              <li className="codeutsava__navbar-hamburger-navitem">
-                <a href="#contactus" onClick={toggleMenu}>
-                  <h3 className="codeutsava__navbar-hamburger-menu-heading">
-                    Contact Us
-                  </h3>
-                </a>
-              </li>
-              <button className="codeutsava__navbar-hamburger-brochure-button codeutsava__navbar-brochure-button">
-                <img src={downArrow}/>
-                <a href={brochure} download="Brochure">
-                  Download Brochure
-                </a>
-              </button>
-            </ul>
+        <ul
+          className={`codeutsava__navbar-hamburger-navlist ${
+            isOpen ? `activeMenu slide-bottom` : ``
+          }`}
+        >
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#home" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Home
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#aboutus" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                About Us
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#events" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Events
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#speakers" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Speakers
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#sponsers" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Sponsors
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#faq" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">FAQ</h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#contactus" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Contact Us
+              </h3>
+            </a>
+          </li>
+          <button className="codeutsava__navbar-hamburger-brochure-button codeutsava__navbar-brochure-button">
+            <img src={downArrow} />
+            <a href={brochure} download="Brochure">
+              Download Brochure
+            </a>
+          </button>
+        </ul>
       </header>
-    </div>
+    </motion.div>
   );
 };
 

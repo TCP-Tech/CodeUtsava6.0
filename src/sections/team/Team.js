@@ -8,6 +8,7 @@ import managers from "../../assets/data/managersData";
 import executives from "../../assets/data/executivesData";
 
 import TeamCard from "../../components/teamCard/TeamCard";
+import TeamCard2 from "../../components/teamCard2/TeamCard2";
 
 const Team = () => {
   return (
@@ -17,29 +18,29 @@ const Team = () => {
         <div className="codeutsava__team-title">Overall Coordinators</div>
         <div className="codeutsava__team-members">
           {overAllCoordinaters.map((member, index) => (
-            <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+            <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Head Coordinators</div>
         <div className="codeutsava__team-members">
           {headCoordinaters.map((member, index) => (
-            <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+            <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Managers</div>
         <div className="codeutsava__team-members">
           {managers.map((member, index) => (
-            <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+            <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
+             linkedin={member.linkedin}  />
           ))}
         </div>
         <div className="codeutsava__team-title">Executives</div>
         <div className="codeutsava__team-members">
           {executives.map((member, index) => (
-            <TeamCard key={index} img={member.img} name={member.name} position={member.position}
-            facebook={member.facebook} twitter={member.twitter} linkedin={member.linkedin} github={member.github} />
+            <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
+             linkedin={member.linkedin}  />
           ))}
         </div>
       </div>

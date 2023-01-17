@@ -4,9 +4,9 @@ import '../../sections/section9/Section9.css';
 
 const PrizeBox = ({title , cashPrize , prizeInfo }) =>{
     return (
-        <div className="codeutsava_section9-box">
-            <div className="codeutsava_section9-boxtitle">{title}</div>
-            <div className="codeutsava_section9-boxInfo">
+        <div className="codeutsava__section9-box">
+            <div className="codeutsava__section9-boxtitle">{title}</div>
+            <div className="codeutsava__section9-boxInfo">
                 <ul>
                     {cashPrize.map((listElement , index ) => (
                         <li><b>{listElement}</b></li>

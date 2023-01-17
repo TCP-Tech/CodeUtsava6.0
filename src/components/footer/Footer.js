@@ -5,7 +5,7 @@ import "./Footer.css";
 import NIT from "../../assets/images/NIT.svg";
 import tcpName from "../../assets/images/tcpName.svg";
 import codeutsava from "../../assets/images/codeutsava.png";
-import { transform } from "framer-motion";
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="codeutsava__footer-social-links-container">
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
             <a href="">
               <svg
-                fill="#fff"
+                fill="#999"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,8 @@ const Footer = () => {
       </div>
       <div className="codeutsava__footer-container3">
         <div className="codeutsava__footer-social-team">
-          Architected with ❤️ by <a href="/team">TCP Team</a>
+          Architected with ❤️ by <Link to="/team">TCP Team</Link>
+
         </div>
         <div className="codeutsava__footer-social-map">
           <a target="_blank" href="https://www.google.com/maps/place/National+Institute+of+Technology(NIT),+Raipur,+Great+Eastern+Rd,+Amanaka,+Raipur,+Chhattisgarh+492010/@21.2497222,81.6050291,17z/data=!4m6!3m5!1s0x3a28dde213f66723:0x21543965c50c43c7!8m2!3d21.2497222!4d81.6050291!16zL20vMGNqeXFk">

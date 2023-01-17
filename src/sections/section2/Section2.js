@@ -2,7 +2,6 @@ import React from 'react'
 
 import './Section2.css';
 
-import file4 from '../../assets/images/file4.png';
 import WordGlobe from '../../components/wordGlobe/WordGlobe';
 
 const Section2 = () => {

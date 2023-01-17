@@ -15,24 +15,24 @@ const TeamCard = ({
   return (
     <div className="codeutsava__team-card">
       <div className="codeutsava__team-card-img">
-        <img src="https://picsum.photos/130/130?image=836" />
+        <img src={img} />
       </div>
       <div className="codeutsava__team-card-content">
         <h3 className="name">{name}</h3>
         <h4 className="title">{position}</h4>
       </div>
       <ul className="social">
-        <li>
+        {/* <li>
           <a href="" className="fa fa-facebook" aria-hidden="true"></a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a href="" className="fa fa-twitter" aria-hidden="true"></a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a href="" className="fa fa-github" aria-hidden="true"></a>
-        </li>
+        </li> */}
         <li>
-          <a href="" className="fa fa-linkedin" aria-hidden="true"></a>
+          <a href={linkedin} target="_blank" className="fa fa-linkedin" aria-hidden="true"></a>
         </li>
       </ul>
     </div>

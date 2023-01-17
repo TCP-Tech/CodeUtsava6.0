@@ -60,6 +60,15 @@
   background-color: rgb(32, 32, 32);
 }
 
+.codeutsava__section6-sponser-image{
+  width: 300px;
+}
+
+.codeutsava__section6-sponser-image img{
+  width: 100%;
+  height: auto;
+}
+
 .platinum {
   transition: all 0.8s ease;
   border: 2px solid rgba(18, 17, 39, 0.08);
