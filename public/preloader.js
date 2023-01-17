@@ -180,13 +180,13 @@ $(".shift-camera-button").click(function () {
   ]);
 
   introTimeline.add([
-    TweenLite.to(skyContainer, 1.5, {
+    TweenLite.to(skyContainer, 0.1, {
       opacity: 1,
       display: "block",
       position: 'sticky',
       ease: Power3.easeInOut,
     }),
-    TweenLite.to(root, 0.3, {
+    TweenLite.to(root, 0.1, {
       opacity: 1,
       display: "block", 
       ease: Power3.easeInOut,
