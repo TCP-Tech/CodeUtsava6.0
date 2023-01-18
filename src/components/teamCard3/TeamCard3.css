@@ -1,0 +1,53 @@
+.codeutsava__team-card3{
+    position: relative;
+    background-color: #FFF9F9;
+    width: 300px;
+    height: 360px;
+    border-radius: 30px;
+    margin: 3rem 0;
+
+}
+.codeutsava__team-card3-img{
+    position: relative;
+    top: -50px;
+    text-align: center;
+    border-radius: 30px;
+}
+.codeutsava__team-card3-img img{
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.codeutsava__team-card3-content{
+    text-align: center;
+    color: #D97961;
+    font-weight: 900;
+}
+.name3{
+    position: relative;
+    top: -20px;
+    font-size: 1.4rem;
+    color: #515B34;
+    font-weight: 600;
+}
+.title3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    top: -15px;
+}
+.line{
+    width: 80%;
+    margin:0 2rem;
+    border-top: 2px solid #231F20;
+}
+.social3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+.social3 li{
+    list-style: none;
+}
