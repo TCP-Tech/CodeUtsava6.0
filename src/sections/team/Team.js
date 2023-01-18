@@ -31,15 +31,16 @@ const Team = () => {
              linkedin={member.linkedin} domain={member.Domain}  />
           ))}
         </div>
-        <div className="codeutsava__team-title">Managers</div>
+        <div className="codeutsava__team-title">Technical</div>
+        <div className="codeutsava__team-desc">The powerhouse website development team creating platform for representing our initiatives, events & workshops, ensuring a great interface between participants and our team.</div>
         <div className="codeutsava__team-members">
           {managers.map((member, index) => (
             <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
              linkedin={member.linkedin} domain={member.Domain}  />
           ))}
-        </div>
-        <div className="codeutsava__team-title">Executives</div>
-        <div className="codeutsava__team-members">
+        {/* </div> */}
+        {/* <div className="codeutsava__team-title">Executives</div> */}
+        {/* <div className="codeutsava__team-members"> */}
           {executives.map((member, index) => (
             <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
              linkedin={member.linkedin} domain={member.Domain}  />
@@ -49,5 +50,5 @@ const Team = () => {
     </div>
   );
 };
-
+  
 export default Team;

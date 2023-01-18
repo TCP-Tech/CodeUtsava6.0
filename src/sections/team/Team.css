@@ -28,7 +28,17 @@
   font-size: 48px;
   text-align: center;
   letter-spacing: 1px;
-  margin: 4rem 0;
+  margin: 4rem 0 1rem 0;
+  color: white;
+}
+.codeutsava__team-desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  width: 85%;
+  margin: 2rem 0 4rem 0;
   color: white;
 }
 
