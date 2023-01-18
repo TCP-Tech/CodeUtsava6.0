@@ -42,19 +42,19 @@ const Section1 = () => {
           <div className="codeutsava__section1-para">
             Central India's{" "}
             <span style={{ fontWeight: "600" }}>Largest Coding Event.</span>{" "}
-            Join Us on [Dates].
+            Join Us on 11th - 12th February.
           </div>
         </div>
         <div
           className="codeutsava__section1-button-container"
           style={{ display: "flex", placeContent: "center" }}
         >
-          <div
+          {/* <div
             className="apply-button"
             data-hackathon-slug="YOUR-HACKATHON-SLUG"
             data-button-theme="dark-inverted"
             style={{ height: "44px", width: "312px" }}
-          ></div>
+          ></div> */}
           <div className="codeutsava__section1-discord">
             <a className="codeutsava__section1-discord-link">
               <img src={discord} />
