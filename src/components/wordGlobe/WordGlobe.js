@@ -15,8 +15,6 @@ const WordGlobe = () => {
               radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
               maxSpeed: "fast",
             })}
-            onClick={(tag: string, ev: MouseEvent) => alert(tag)}
-            onClickOptions={{ passive: true }}
           >
             {[
               "HTML",
@@ -31,7 +29,6 @@ const WordGlobe = () => {
               "Figma",
               "CodeEase",
               "Hackathon",
-              "PassCode",
               "Quiz",
             ]}
           </TagCloud>

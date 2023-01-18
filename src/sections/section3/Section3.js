@@ -6,10 +6,17 @@ import events from "../../assets/data/eventsData.js";
 import EventCard from "../../components/eventCard/EventCard";
 import Slider from "react-slick";
 import { sliderSettings } from "../../motionUtils";
+import { motion } from "framer-motion";
 
 const Section3 = () => {
   return (
-    <div className="codeutsava__section3" id="events">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: false }}
+      className="codeutsava__section3"
+      id="events"
+    >
       <div className="codeutsava__section3-title">Events</div>
       <div className="codeutsava__section3-events-container">
         <Slider {...sliderSettings} className="slider">
@@ -23,7 +30,7 @@ const Section3 = () => {
           ))}
         </Slider>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
