@@ -9,6 +9,7 @@ import executives from "../../assets/data/executivesData";
 
 import TeamCard from "../../components/teamCard/TeamCard";
 import TeamCard2 from "../../components/teamCard2/TeamCard2";
+import TeamCard3 from "../../components/teamCard3/TeamCard3";
 
 
 const Team = () => {
@@ -19,7 +20,7 @@ const Team = () => {
         <div className="codeutsava__team-title">Overall Coordinators</div>
         <div className="codeutsava__team-members">
           {overAllCoordinaters.map((member, index) => (
-            <TeamCard key={index} img={member.Photo} name={member.Name} position={member.Designation}
+            <TeamCard3 key={index} img={member.Photo} name={member.Name} position={member.Designation}
              linkedin={member.linkedin}  />
           ))}
         </div>
