@@ -70,6 +70,36 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/mohitd137/",
   },
   {
+    Name: "Tathagat Sahay",
+    Photo:
+      "https://drive.google.com/file/d/1_v0qYsGKU23ofsNNOZjGIodAA8hm5uld/view?usp=share_link",
+    Branch: "Electrical Engineering",
+    "Graduation Year": 2025,
+    Domain: "Design",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/tathagat-sahay-50470922a/",
+  },
+  {
+    Name: "Hemant Pradeep Modi",
+    Photo:
+      "https://drive.google.com/file/d/1q9nj2LN1Clz6DZB0P_85cpJdixBdrTVe/view?usp=sharing",
+    Branch: "Electronics and Communication Engineering",
+    "Graduation Year": 2025,
+    Domain: "Design",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/hemant-modi-1573141b8/",
+  },
+  {
+    Name: "Deepesh Genani",
+    Photo:
+      "https://drive.google.com/file/d/1aa7xxC5xOYD0VK65Z0-k_ROX_JyOb3eN/view?usp=drivesdk",
+    Branch: "MME",
+    "Graduation Year": 2025,
+    Domain: "Video Editing / Design",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/mwlite/in/deepesh-genani-46668a22a",
+  },
+  {
     Name: "Gargee Gupta",
     Photo:
       "https://drive.google.com/uc?id=1w87iusiTzJ9NkUEEB6qQ-6UF2vD3Ywra&export=download",
