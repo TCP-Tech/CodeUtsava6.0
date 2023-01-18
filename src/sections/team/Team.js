@@ -11,15 +11,26 @@ import TeamCard from "../../components/teamCard/TeamCard";
 import TeamCard2 from "../../components/teamCard2/TeamCard2";
 import TeamCard3 from "../../components/teamCard3/TeamCard3";
 
+import tcp from '../../assets/images/tcp.png'
+
 
 const Team = () => {
   return (
     <div className="codeutsava__team" id="speakers">
       <div className="codeutsava__team-body">
-        <div className="codeutsava__team-main-title">Team TCP</div>
+        <div className="codeutsava__team-header-container">
+          <img src={tcp}/>
+          <div className="codeutsava__team-main-title">&lt;Team TCP 2022&gt;</div>
+        </div>
         <div className="codeutsava__team-title">Overall Coordinators</div>
         <div className="codeutsava__team-members">
-          {overAllCoordinaters.map((member, index) => (
+          {overAllCoordinaters.slice(0,1).map((member, index) => (
+            <TeamCard3 key={index} img={member.Photo} name={member.Name} position={member.Designation}
+             linkedin={member.linkedin} domain={member.Domain}  />
+          ))}
+        </div>
+        <div className="codeutsava__team-members">
+          {overAllCoordinaters.slice(1).map((member, index) => (
             <TeamCard3 key={index} img={member.Photo} name={member.Name} position={member.Designation}
              linkedin={member.linkedin} domain={member.Domain}  />
           ))}
