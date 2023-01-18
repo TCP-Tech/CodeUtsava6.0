@@ -8,8 +8,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2rem 2rem 0.5rem 2rem;
+    padding: 1.5rem;
+    padding-bottom: 0.5rem;
     max-width: 370px;
+}
+
+.codeutsava__section4-speaker-img-container{
+    width: 240px;
+    height: 240px;
+}
+
+.codeutsava__section4-speaker-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .codeutsava__section4-speaker-menu{
@@ -42,7 +54,6 @@
     line-height: 18px;
     text-align: center;
     padding: 1rem 0;
-    font-family: 'Roboto';
 }
 
 .codeutsava__section4-speaker-divider{
@@ -72,7 +83,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    padding-top: 1rem; 
+    padding-top: 0.5rem; 
 }
 
 .codeutsava__section4-speaker-contact-links-image{

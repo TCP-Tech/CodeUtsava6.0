@@ -1,17 +1,17 @@
-import event1 from '../images/file5.png'
-import event2 from '../images/file6.png'
+import event1 from '../images/event1.png'
+import event2 from '../images/event2.png'
 import event3 from '../images/file7.png'
 import event4 from '../images/file8.png'
 
 const events = [
   {
-    title: "Interactive Session for Cracking Product Based Companies",
-    date: "13th February",
+    title: "Cloud Techniques and Placement Tips",
+    date: "14th and 15th January",
     img: event1,
   },
   {
-    title: "Coding Contest",
-    date: "14th February",
+    title: "28 Hours Hackathon",
+    date: "11th and 12th February",
     img: event2,
   },
   {
@@ -27,12 +27,12 @@ const events = [
   {
     title: "Interactive Session for Cracking Product Based Companies",
     date: "13th February",
-    img: event1,
+    img: event3,
   },
   {
     title: "Coding Contest",
     date: "14th February",
-    img: event2,
+    img: event3,
   }, // repeated these two data to show scroll effect
 ];
 

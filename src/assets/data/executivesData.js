@@ -1,58 +1,8 @@
 const executives = [
   {
-    Name: "Shubhanshu Saraf",
-    Photo:
-      "https://drive.google.com/uc?id=1ajKtzeyFSfdPYWpvl1ueRVf9Vw8lA3-D&export=download",
-    Branch: "BIO MED",
-    "Graduation Year": 2025,
-    Domain: "Technical",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/shubhanshu-saraf-0ba998229",
-  },
-  {
-    Name: "Gargee Gupta",
-    Photo:
-      "https://drive.google.com/uc?id=1w87iusiTzJ9NkUEEB6qQ-6UF2vD3Ywra&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2025,
-    Domain: "Documentation",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/gargee-gupta-72b2b3229",
-  },
-  {
-    Name: "Prachi Bhugaonkar",
-    Photo:
-      "https://drive.google.com/uc?id=1EdqBBudIHbNqdROJzXlPezsKN5enL_aj&export=download",
-    Branch: "CHEMICAL",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/prachi-bhugaonkar-681b35227",
-  },
-  {
-    Name: "Aditya Prasad",
-    Photo:
-      "https://drive.google.com/uc?id=1Dh2B3f98OriVslezahl48MmK3u3nuokC&export=download",
-    Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "http://linkedin.com/in/aditya-prasad-x007",
-  },
-  {
-    Name: "Mohit Doraiburu",
-    Photo:
-      "https://drive.google.com/uc?id=10K4uDb_7CWVpFsa7PW_DYbjGYABQwbtr&export=download",
-    Branch: "ECE",
-    "Graduation Year": 2025,
-    Domain: "Design",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/mohitd137/",
-  },
-  {
     Name: "Viraj Chandra",
     Photo:
-      "https://drive.google.com/uc?id=1LPIuDcWf0TeCsDW5yelMLolxQc_TJXBf&export=download",
+    "https://drive.google.com/uc?id=1LPIuDcWf0TeCsDW5yelMLolxQc_TJXBf&export=download",
     Branch: "IT",
     "Graduation Year": 2025,
     Domain: "Technical",
@@ -60,54 +10,14 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/viraj-chandra/",
   },
   {
-    Name: "MD Shamshul Qamar",
+    Name: "Aniket Kumar",
     Photo:
-      "https://drive.google.com/uc?id=1nd8XQhPp0HD4zXeJ4iDLhgCnOMkraWPo&export=download",
-    Branch: "CHEMICAL",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/md-shamshul-qamar-414505228",
-  },
-  {
-    Name: "Ritika Singh",
-    Photo:
-      "https://drive.google.com/uc?id=1FD2bcRMLbkiVCmNaghnh3kcTPoCeJ6O7&export=download",
+      "https://drive.google.com/uc?id=1kxCz5cPbj0rOknv3YkPC6sL7f1ygQUuQ&export=download",
     Branch: "ECE",
     "Graduation Year": 2025,
-    Domain: "PR & Marketing",
+    Domain: "Technical",
     Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/ritika-singh-268b1a231/",
-  },
-  {
-    Name: "Harsh Dewangan",
-    Photo:
-      "https://drive.google.com/uc?id=19YgDRFyPwMygp_d6RVw7aUYiq2_nfEnu&export=download",
-    Branch: "ECE",
-    "Graduation Year": 2025,
-    Domain: "Design",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/harshdew16/",
-  },
-  {
-    Name: "Pranav Kumar Singh",
-    Photo:
-      "https://drive.google.com/uc?id=1in6QdPW0BdLBCZXX4pfjMCLNPawQciP7&export=download",
-    Branch: "EE",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/pranav-kumar-singh-2852b0229",
-  },
-  {
-    Name: "Anusri Modi",
-    Photo:
-      "https://drive.google.com/uc?id=1isnGJCpRguZqkFcNysZn7ZiCTH1R0gep&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2025,
-    Domain: "Documentation",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/anusri-modi-a92306233/",
+    linkedin: "https://www.linkedin.com/in/kraniket901",
   },
   {
     Name: "Bhupendra Kumar Gehlot",
@@ -120,44 +30,64 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/bhupendra--gehlot",
   },
   {
-    Name: "Saurabh Raj",
+    Name: "Shreya Pandey",
     Photo:
-      "https://drive.google.com/uc?id=16dhaPFlvIipmFczyQFupiA-1kKuVD00I&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "www.linkedin.com/in/saurabhraj50",
-  },
-  {
-    Name: "Kriti Arora",
-    Photo:
-      "https://drive.google.com/uc?id=14gbopr_rdMqE-Dh8lUcWgkOTfd72totx&export=download",
+      "https://drive.google.com/uc?id=1hrj7ujDm4DJ3SlaQrYWTvC9mRteQfzZN&export=download",
     Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/kriti-arora-9a5045209",
-  },
-  {
-    Name: "Shatanshu Bodkhe",
-    Photo:
-      "https://drive.google.com/uc?id=178bDP7Q2yEj5JxdqArwOONgATmZe9Nwz&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/shatanshu-bodkhe-001a521b8",
-  },
-  {
-    Name: "Aniket Kumar",
-    Photo:
-      "https://drive.google.com/uc?id=1kxCz5cPbj0rOknv3YkPC6sL7f1ygQUuQ&export=download",
-    Branch: "ECE",
     "Graduation Year": 2025,
     Domain: "Technical",
     Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/kraniket901",
+    linkedin: "https://www.linkedin.com/in/shreya-pandey-9016a922a",
+  },
+  {
+    Name: "Shubhanshu Saraf",
+    Photo:
+      "https://drive.google.com/uc?id=1ajKtzeyFSfdPYWpvl1ueRVf9Vw8lA3-D&export=download",
+    Branch: "BIO MED",
+    "Graduation Year": 2025,
+    Domain: "Technical",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/shubhanshu-saraf-0ba998229",
+  },
+  {
+    Name: "Harsh Dewangan",
+    Photo:
+      "https://drive.google.com/uc?id=19YgDRFyPwMygp_d6RVw7aUYiq2_nfEnu&export=download",
+    Branch: "ECE",
+    "Graduation Year": 2025,
+    Domain: "Design",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/harshdew16/",
+  },
+  {
+    Name: "Mohit Doraiburu",
+    Photo:
+      "https://drive.google.com/uc?id=10K4uDb_7CWVpFsa7PW_DYbjGYABQwbtr&export=download",
+    Branch: "ECE",
+    "Graduation Year": 2025,
+    Domain: "Design",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/mohitd137/",
+  },
+  {
+    Name: "Gargee Gupta",
+    Photo:
+      "https://drive.google.com/uc?id=1w87iusiTzJ9NkUEEB6qQ-6UF2vD3Ywra&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2025,
+    Domain: "Documentation",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/gargee-gupta-72b2b3229",
+  },
+  {
+    Name: "Anusri Modi",
+    Photo:
+      "https://drive.google.com/uc?id=1isnGJCpRguZqkFcNysZn7ZiCTH1R0gep&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2025,
+    Domain: "Documentation",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/anusri-modi-a92306233/",
   },
   {
     Name: "Harsha Lal",
@@ -178,6 +108,26 @@ const executives = [
     Domain: "Documentation",
     Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/vibhuti-chandrakar-4b1bb024b",
+  },
+  {
+    Name: "Shweta Agrawal",
+    Photo:
+      "https://drive.google.com/uc?id=1AliNssGEL3nPl1Lmpp7OUyzua9HyZEzl&export=download",
+    Branch: "MECH",
+    "Graduation Year": 2025,
+    Domain: "Documentation",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/shweta-agrawal-51683b232/",
+  },
+  {
+    Name: "Harsh Nahar",
+    Photo:
+      "https://drive.google.com/uc?id=1YnsQN7l6UQmldJivfPihbJmKjxaICewa&export=download",
+    Branch: "IT",
+    "Graduation Year": 2025,
+    Domain: "Documentation",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/harsh-nahar-164632227",
   },
   {
     Name: "Neel Sharma",
@@ -241,26 +191,6 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/rishabh-das-235a0b229/",
   },
   {
-    Name: "Shweta Agrawal",
-    Photo:
-      "https://drive.google.com/uc?id=1AliNssGEL3nPl1Lmpp7OUyzua9HyZEzl&export=download",
-    Branch: "MECH",
-    "Graduation Year": 2025,
-    Domain: "Documentation",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/shweta-agrawal-51683b232/",
-  },
-  {
-    Name: "Harsh Nahar",
-    Photo:
-      "https://drive.google.com/uc?id=1YnsQN7l6UQmldJivfPihbJmKjxaICewa&export=download",
-    Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "Documentation",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/harsh-nahar-164632227",
-  },
-  {
     Name: "Divyansh Pandey",
     Photo:
       "https://drive.google.com/uc?id=1mEqWOzMsc4eemSJ2-YehBV2d4P9IZk1v&export=download",
@@ -271,16 +201,6 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/divyansh-pandey-534996220",
   },
   {
-    Name: "Shreya Pandey",
-    Photo:
-      "https://drive.google.com/uc?id=1hrj7ujDm4DJ3SlaQrYWTvC9mRteQfzZN&export=download",
-    Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "Technical",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/shreya-pandey-9016a922a",
-  },
-  {
     Name: "Prerna Singh",
     Photo:
       "https://drive.google.com/uc?id=1OGPKJHIcNwzDMEow0FTG2LTlLkUntX2J&export=download",
@@ -289,6 +209,86 @@ const executives = [
     Domain: "PR & Marketing",
     Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/prerna-s-311897230",
+  },
+  {
+    Name: "Prachi Bhugaonkar",
+    Photo:
+      "https://drive.google.com/uc?id=1EdqBBudIHbNqdROJzXlPezsKN5enL_aj&export=download",
+    Branch: "CHEMICAL",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/prachi-bhugaonkar-681b35227",
+  },
+  {
+    Name: "Aditya Prasad",
+    Photo:
+      "https://drive.google.com/uc?id=1Dh2B3f98OriVslezahl48MmK3u3nuokC&export=download",
+    Branch: "IT",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "http://linkedin.com/in/aditya-prasad-x007",
+  },
+  {
+    Name: "MD Shamshul Qamar",
+    Photo:
+      "https://drive.google.com/uc?id=1nd8XQhPp0HD4zXeJ4iDLhgCnOMkraWPo&export=download",
+    Branch: "CHEMICAL",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/md-shamshul-qamar-414505228",
+  },
+  {
+    Name: "Ritika Singh",
+    Photo:
+      "https://drive.google.com/uc?id=1FD2bcRMLbkiVCmNaghnh3kcTPoCeJ6O7&export=download",
+    Branch: "ECE",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/ritika-singh-268b1a231/",
+  },
+  {
+    Name: "Pranav Kumar Singh",
+    Photo:
+      "https://drive.google.com/uc?id=1in6QdPW0BdLBCZXX4pfjMCLNPawQciP7&export=download",
+    Branch: "EE",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/pranav-kumar-singh-2852b0229",
+  },
+  {
+    Name: "Saurabh Raj",
+    Photo:
+      "https://drive.google.com/uc?id=16dhaPFlvIipmFczyQFupiA-1kKuVD00I&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "www.linkedin.com/in/saurabhraj50",
+  },
+  {
+    Name: "Kriti Arora",
+    Photo:
+      "https://drive.google.com/uc?id=14gbopr_rdMqE-Dh8lUcWgkOTfd72totx&export=download",
+    Branch: "IT",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/kriti-arora-9a5045209",
+  },
+  {
+    Name: "Shatanshu Bodkhe",
+    Photo:
+      "https://drive.google.com/uc?id=178bDP7Q2yEj5JxdqArwOONgATmZe9Nwz&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/shatanshu-bodkhe-001a521b8",
   },
 ];
 

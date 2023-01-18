@@ -9,7 +9,7 @@
 }
 .codeutsava__team-card3-img{
     position: relative;
-    top: -50px;
+    top: -35px;
     text-align: center;
     border-radius: 30px;
 }
@@ -26,15 +26,19 @@
 }
 .name3{
     position: relative;
-    top: -20px;
+    top: -10px;
     font-size: 1.4rem;
     color: #515B34;
     font-weight: 600;
 }
 .title3{
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
     position: relative;
+}
+.domain3{
+    color: #000;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
     top: -15px;
 }
 .line{
@@ -46,7 +50,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 1.5rem;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.6rem;
 }
 .social3 li{
     list-style: none;

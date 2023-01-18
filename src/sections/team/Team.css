@@ -16,17 +16,16 @@
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 82px;
     text-align: center;
     letter-spacing: 1px;
     color: white;
+    margin-top: 4rem;
   }
 
 .codeutsava__team-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  line-height: 82px;
   text-align: center;
   letter-spacing: 1px;
   margin: 4rem 0;

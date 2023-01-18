@@ -1,58 +1,41 @@
-import speaker1 from '../images/file9.png'
+import speaker1 from '../images/speaker1.jpeg'
+import speaker2 from '../images/speaker2.jpg'
+import speaker3 from '../images/speaker3.jpeg'
 
 const speakers = [
   {
-    name: "Amarnath Sharma",
-    position: "Software Engineer Google",
-    description: "I choose product design because i love seeing beautiful interfaces and to be able to solve user’s problems.",
+    name: "Rohit Agarwal",
+    position: "Senior Software Engineer",
+    description: "SSE at Optum. B.Tech in Information Technology - NIT Raipur 2019 Batch. Runner-Up Hero Campus Challenge Season 4",
     img: speaker1,
     facebook: "",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rohit-agarwal-711b82111/",
     github: "",
+    youtube: "",
   },
   {
-    name: "Amarnath Sharma",
-    position: "Software Engineer Google",
-    description: "I choose product design because i love seeing beautiful interfaces and to be able to solve user’s problems.",
-    img: speaker1,
+    name: "Prateek Narang",
+    position: "Co-founder - Coding Minutes",
+    description: "Taught 100k students. Udemy, Scaler. Ex - Google, SanDisk. B.Tech in Computer Science - DTU 2016. MS in ML, AI - IIT Delhi 2020.",
+    img: speaker2,
     facebook: "",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/prateeknarang27/",
     github: "",
+    youtube: "",
   },
   {
-    name: "Amarnath Sharma",
-    position: "Software Engineer Google",
-    description: "I choose product design because i love seeing beautiful interfaces and to be able to solve user’s problems.",
-    img: speaker1,
+    name: "Surya Pratap Kahar",
+    position: "Founder - Techdose",
+    description: "The founder of interview preparation community, TECHDOSE. Youtube channel with over 130K subscribers, features Programming, DSA, Tutorials etc.",
+    img: speaker3,
     facebook: "",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/surya-pratap-kahar/",
     github: "",
+    youtube: "https://www.youtube.com/channel/UCnxhETjJtTPs37hOZ7vQ88g",
   },
-  {
-    name: "Amarnath Sharma",
-    position: "Software Engineer Google",
-    description: "I choose product design because i love seeing beautiful interfaces and to be able to solve user’s problems.",
-    img: speaker1,
-    facebook: "",
-    twitter: "",
-    linkedin: "",
-    github: "",
-  },
-  {
-    name: "Amarnath Sharma",
-    position: "Software Engineer Google",
-    description: "I choose product design because i love seeing beautiful interfaces and to be able to solve user’s problems.",
-    img: speaker1,
-    facebook: "",
-    twitter: "",
-    linkedin: "",
-    github: "",
-  },
-  // extra for vertical positioning of cards
-  
 ];
 
 export default speakers;

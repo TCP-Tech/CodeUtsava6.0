@@ -75,6 +75,13 @@
   font-size: 17px;
   color: #004aad;
   text-transform: capitalize;
+  margin-top: 4px;
+}
+
+.domain3{
+  color: #000;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .codeutsava__team-card .social {

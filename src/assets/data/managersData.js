@@ -1,5 +1,55 @@
 const managers = [
   {
+    Name: "Animesh Agrawal",
+    Photo:
+      "https://drive.google.com/uc?id=1gv5DMfL3WGhCuqasbXkN6MDaNlblPyDO&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "Technical",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/animesh-agrawal-6b3389191",
+  },
+  {
+    Name: "Rohit Jaiswal",
+    Photo:
+      "https://drive.google.com/uc?id=1EvUqCG2eEHKfIgp8DW1-NttG9P6odPta&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2024,
+    Domain: "Technical",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/rohit-jaiswal-557b871aa/",
+  },
+  {
+    Name: "Sayena",
+    Photo:
+      "https://drive.google.com/uc?id=19sOBx93qQImagwVLYbKVGAVH8brveC86&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/sayena-43b234207",
+  },
+  {
+    Name: "Shrajan Pandey",
+    Photo:
+      "https://drive.google.com/uc?id=1PqbxGEzgCoRnu-YGk3IYphdi8811ShQ5&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/shrajan-pandey-a38033200",
+  },
+  {
+    Name: "Hridam Palwe",
+    Photo:
+      "https://drive.google.com/uc?id=1TOA5zrwJwCEpuuEKBwMKQBP-hLub-LUN&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Manager",
+    linkedin: "http://www.linkedin.com/in/hridam-palwe",
+  },
+  {
     Name: "Sakshi Agrawal",
     Photo:
       "https://drive.google.com/uc?id=1jFyVAmUVLvYhcnyF2JSJfkbEan5tlbpX&export=download",
@@ -40,16 +90,6 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/aditi-srivastava-b41aa51ba/",
   },
   {
-    Name: "Sayena",
-    Photo:
-      "https://drive.google.com/uc?id=19sOBx93qQImagwVLYbKVGAVH8brveC86&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "Documentation",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/sayena-43b234207",
-  },
-  {
     Name: "Yogesh Kumar Sharma",
     Photo:
       "https://drive.google.com/uc?id=1FRebL9c4wOiPf4OPoEceuYtRAzDd4LRx&export=download",
@@ -60,16 +100,6 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/yogesh-kumar-sharma-21692122b",
   },
   {
-    Name: "Animesh Agrawal",
-    Photo:
-      "https://drive.google.com/uc?id=1gv5DMfL3WGhCuqasbXkN6MDaNlblPyDO&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "Technical",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/animesh-agrawal-6b3389191",
-  },
-  {
     Name: "Samyak Meshram",
     Photo:
       "https://drive.google.com/uc?id=1CDmdTPkaGB1kz1WVpyFq--FjSzisLu1c&export=download",
@@ -78,26 +108,6 @@ const managers = [
     Domain: "PR & Marketing",
     Designation: "Manager",
     linkedin: "https://www.linkedin.com/in/0samyak-meshram-bb1b4820a",
-  },
-  {
-    Name: "ROHIT JAISWAL",
-    Photo:
-      "https://drive.google.com/uc?id=1EvUqCG2eEHKfIgp8DW1-NttG9P6odPta&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2024,
-    Domain: "Technical",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/rohit-jaiswal-557b871aa/",
-  },
-  {
-    Name: "Hridam Palwe",
-    Photo:
-      "https://drive.google.com/uc?id=1TOA5zrwJwCEpuuEKBwMKQBP-hLub-LUN&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "Documentation",
-    Designation: "Manager",
-    linkedin: "http://www.linkedin.com/in/hridam-palwe",
   },
   {
     Name: "Aman Raj",
@@ -128,16 +138,6 @@ const managers = [
     Domain: "PR & Marketing",
     Designation: "Manager",
     linkedin: "linkedin.com/in/ayut-jain-366852200",
-  },
-  {
-    Name: "Shrajan Pandey",
-    Photo:
-      "https://drive.google.com/uc?id=1PqbxGEzgCoRnu-YGk3IYphdi8811ShQ5&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "Documentation",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/shrajan-pandey-a38033200",
   },
   {
     Name: "Palak Jain",
