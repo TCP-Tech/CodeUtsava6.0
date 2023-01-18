@@ -3,10 +3,17 @@ import React from "react";
 import "./Section6.css";
 
 import sponsers from "../../assets/data/sponsersData.js";
+import { motion } from "framer-motion";
 
 const Section6 = () => {
   return (
-    <div className="codeutsava__section6" id="sponsers">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: false }}
+      className="codeutsava__section6"
+      id="sponsers"
+    >
       <div className="codeutsava__section6-body">
         <div className="codeutsava__section6-title">Sponsers</div>
         <div className="codeutsava__section6-content">
@@ -34,9 +41,7 @@ const Section6 = () => {
               </div>
             ))}
           </div>
-          <div className="codeutsava__section6-sponser-title">
-            Sponsors
-          </div>
+          <div className="codeutsava__section6-sponser-title">Sponsors</div>
           <div className="codeutsava__section6-sponser-list bronze">
             {sponsers.silver.map((sponser, index) => (
               <div className="codeutsava__section6-sponser-image">
@@ -56,7 +61,7 @@ const Section6 = () => {
           </div> */}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -5,6 +5,7 @@ import "./Section8.css";
 
 import problems from "../../assets/data/problemsData.js";
 import ProblemCard from "../../components/problemCard/ProblemCard";
+import { motion } from "framer-motion";
 
 const initialProblem = 2;
 
@@ -19,7 +20,11 @@ const Section8 = () => {
       if (!show) setVisible(false);
     };
 
-    const style = { animation: `${show ? "fadeIn 1.5s ease-in-out" : "fadeOut 0.5s ease-in-out"}` };
+    const style = {
+      animation: `${
+        show ? "fadeIn 1.5s ease-in-out" : "fadeOut 0.5s ease-in-out"
+      }`,
+    };
     const fadeProps = {
       style,
       onAnimationEnd,
@@ -29,7 +34,13 @@ const Section8 = () => {
   const [isVisible, setVisible, fadeProps] = useFade(false);
 
   return (
-    <div className="codeutsava__section8" id="problems">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, transition: { duration: 1 } }}
+      viewport={{ once: false }}
+      className="codeutsava__section8"
+      id="problems"
+    >
       <div className="codeutsava__section8-body">
         <div className="codeutsava__section8-title">Problem Statements</div>
         <div className="codeutsava__section8-problems">
@@ -68,7 +79,7 @@ const Section8 = () => {
           {isVisible === false ? "Load More" : "Show Less"}
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
