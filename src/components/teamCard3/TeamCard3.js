@@ -11,6 +11,7 @@ const TeamCard3 = ({
   twitter,
   linkedin,
   github,
+  domain,
 }) => {
   return (
     <div className="codeutsava__team-card3">
@@ -20,6 +21,7 @@ const TeamCard3 = ({
       <div className="codeutsava__team-card3-content">
         <h3 className="name3">{name}</h3>
         <h4 className="title3">{position}</h4>
+        <h4 className="domain3">{domain}</h4>
       </div>
       <div className="line"></div>
       <ul className="social3">

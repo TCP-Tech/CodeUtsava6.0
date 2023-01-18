@@ -13,14 +13,24 @@ const headCoordinators = [
     linkedin: "https://www.linkedin.com/in/prashant-ranjan-b44899b3",
   },
   {
-    Name: "Prabhdeep Singh",
+    Name: "Prakhar Asaiya",
     Photo:
-      "https://drive.google.com/uc?id=1RYzsXuAQAh1RNQw2Ga575VVqeaES2gIv&export=download",
-    Branch: "IT",
+      "https://drive.google.com/uc?id=1Jnk653kPf78vyv-am4wyo7V0onttXHmi&export=download",
+    Branch: "CSE",
     "Graduation Year": 2023,
-    Domain: "Mentors (4th years HCs only)",
+    Domain: "Technical",
     Designation: "Head Coordinator",
-    linkedin: "https://in.linkedin.com/in/prabhdeep-singh-b6b837190",
+    linkedin: "https://www.linkedin.com/in/prakhar-asaiya/",
+  },
+  {
+    Name: "Ayush Goswami",
+    Photo:
+      "https://drive.google.com/uc?id=1FogxZBEYOp5Ocw67lPcrlBSVUPtR72lZ&export=download",
+    Branch: "CHEMICAL",
+    "Graduation Year": 2023,
+    Domain: "Technical",
+    Designation: "Head Coordinator",
+    linkedin: "https://www.linkedin.com/in/ayushgoswamiabr",
   },
   {
     Name: "Kashish Agrawal",
@@ -31,16 +41,6 @@ const headCoordinators = [
     Domain: "Technical",
     Designation: "Head Coordinator",
     linkedin: "https://www.linkedin.com/in/kashishagrawal",
-  },
-  {
-    Name: "Prakhar Asaiya",
-    Photo:
-      "https://drive.google.com/uc?id=1Jnk653kPf78vyv-am4wyo7V0onttXHmi&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2023,
-    Domain: "Technical",
-    Designation: "Head Coordinator",
-    linkedin: "https://www.linkedin.com/in/prakhar-asaiya/",
   },
   {
     Name: "Chhaya Sahu",
@@ -73,6 +73,16 @@ const headCoordinators = [
     linkedin: "https://www.linkedin.com/in/saurabh-mishra-321060190/",
   },
   {
+    Name: "Prabhdeep Singh",
+    Photo:
+      "https://drive.google.com/uc?id=1RYzsXuAQAh1RNQw2Ga575VVqeaES2gIv&export=download",
+    Branch: "IT",
+    "Graduation Year": 2023,
+    Domain: "Mentors (4th years HCs only)",
+    Designation: "Head Coordinator",
+    linkedin: "https://in.linkedin.com/in/prabhdeep-singh-b6b837190",
+  },
+  {
     Name: "Samyak jain",
     Photo:
       "https://drive.google.com/uc?id=1BiURlPbEr9w8-WHRnWt_QKhm_avJqoeF&export=download",
@@ -91,16 +101,6 @@ const headCoordinators = [
     Domain: "Mentors (4th years HCs only)",
     Designation: "Head Coordinator",
     linkedin: "https://www.linkedin.com/in/toshendra-bohra-b5b519190/",
-  },
-  {
-    Name: "Ayush Goswami",
-    Photo:
-      "https://drive.google.com/uc?id=1FogxZBEYOp5Ocw67lPcrlBSVUPtR72lZ&export=download",
-    Branch: "CHEMICAL",
-    "Graduation Year": 2023,
-    Domain: "Technical",
-    Designation: "Head Coordinator",
-    linkedin: "https://www.linkedin.com/in/ayushgoswamiabr",
   },
   {
     Name: "Gaurav Ray",

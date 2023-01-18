@@ -2,7 +2,6 @@
   background-color: rgba(32, 32, 32, 1);
   width: 100%;
   overflow: hidden;
-  padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 
@@ -20,15 +19,18 @@
 
 .codeutsava__sponsers-carousel-item {
   display: inline-block;
-  margin: 0.5rem 3rem;
-  height: 60px;
+  margin: 2rem 3rem;
+  height: 75px;
   width: auto;
+  object-fit: contain;
+
 }
 
 .codeutsava__sponsers-carousel-item img {
   display: inline-block;
   vertical-align: middle;
   width: 200px;
+  object-fit: cover;
 }
 
 .codeutsava__sponsers-carousel-item-block{

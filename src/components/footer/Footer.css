@@ -153,6 +153,16 @@
   width: 100%;
 }
 
+
+.codeutsava__footer-social-team a{
+  text-decoration: underline;
+  color: var(--primary-c);
+}
+
+.codeutsava__footer-social-team a:hover {
+  color: white;
+}
+
 .codeutsava__footer-back-to-top a{
   text-decoration: none;
   color: white;
@@ -162,7 +172,7 @@
 }
 
 .codeutsava__footer-back-to-top a:hover {
-  color: #38b6ff;
+  color: var(--primary-c);
 }
 
 .codeutsava__footer-social-map{
@@ -176,6 +186,10 @@
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+  }
+
+  .codeutsava__footer-back-to-top{
+    display: none;
   }
 
   .codeutsava__footer-social-links-container{

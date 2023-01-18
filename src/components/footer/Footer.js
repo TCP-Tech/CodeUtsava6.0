@@ -135,13 +135,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="codeutsava__footer-container3">
+        <div className="codeutsava__footer-social-team">
+          Architected with ❤️ by <Link to="/team">TCP Team</Link>
+        </div>
         <div className="codeutsava__footer-back-to-top">
-          <a
-            href="#home"
-          >
+          <a href="#home">
             Back to Top
             <svg
-              fill="#38b6ff"
+              fill="#004AAD"
               height="20"
               width="20"
               xmlns="http://www.w3.org/2000/svg"
@@ -152,6 +153,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
+
         <div className="codeutsava__footer-social-map">
           <a
             target="_blank"
