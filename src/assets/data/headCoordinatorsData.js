@@ -1,7 +1,48 @@
 import sugandha from '../images/sugandha.jpg'
 import astitva from '../images/astitva.jpg'
+import sahil from '../images/sahil.jpg'
 
 const headCoordinators = [
+  {
+    Name: "Sahil Silare",
+    Photo:
+    sahil,
+    Branch: "CSE",
+    "Graduation Year": 2023,
+    Domain: "Technical",
+    Designation: "Head Coordinator",
+    linkedin: "https://www.linkedin.com/in/sahil-silare-76a65014b/",
+  },
+  {
+    Name: "Prakhar Asaiya",
+    Photo:
+    "https://drive.google.com/uc?id=1Jnk653kPf78vyv-am4wyo7V0onttXHmi&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2023,
+    Domain: "Technical",
+    Designation: "Head Coordinator",
+    linkedin: "https://www.linkedin.com/in/prakhar-asaiya/",
+  },
+  {
+    Name: "Ayush Goswami",
+    Photo:
+    "https://drive.google.com/uc?id=1FogxZBEYOp5Ocw67lPcrlBSVUPtR72lZ&export=download",
+    Branch: "CHEMICAL",
+    "Graduation Year": 2023,
+    Domain: "Technical",
+    Designation: "Head Coordinator",
+    linkedin: "https://www.linkedin.com/in/ayushgoswamiabr",
+  },
+  {
+    Name: "Kashish Agrawal",
+    Photo:
+    "https://drive.google.com/uc?id=1bEqzjWAwMcVC1XY5SkGMbDQ4tjU6I1Fi&export=download",
+    Branch: "ECE",
+    "Graduation Year": 2023,
+    Domain: "Technical",
+    Designation: "Head Coordinator",
+    linkedin: "https://www.linkedin.com/in/kashishagrawal",
+  },
   {
     Name: "Prashant Ranjan",
     Photo:
@@ -13,39 +54,9 @@ const headCoordinators = [
     linkedin: "https://www.linkedin.com/in/prashant-ranjan-b44899b3",
   },
   {
-    Name: "Prakhar Asaiya",
-    Photo:
-      "https://drive.google.com/uc?id=1Jnk653kPf78vyv-am4wyo7V0onttXHmi&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2023,
-    Domain: "Technical",
-    Designation: "Head Coordinator",
-    linkedin: "https://www.linkedin.com/in/prakhar-asaiya/",
-  },
-  {
-    Name: "Ayush Goswami",
-    Photo:
-      "https://drive.google.com/uc?id=1FogxZBEYOp5Ocw67lPcrlBSVUPtR72lZ&export=download",
-    Branch: "CHEMICAL",
-    "Graduation Year": 2023,
-    Domain: "Technical",
-    Designation: "Head Coordinator",
-    linkedin: "https://www.linkedin.com/in/ayushgoswamiabr",
-  },
-  {
-    Name: "Kashish Agrawal",
-    Photo:
-      "https://drive.google.com/uc?id=1bEqzjWAwMcVC1XY5SkGMbDQ4tjU6I1Fi&export=download",
-    Branch: "ECE",
-    "Graduation Year": 2023,
-    Domain: "Technical",
-    Designation: "Head Coordinator",
-    linkedin: "https://www.linkedin.com/in/kashishagrawal",
-  },
-  {
     Name: "Chhaya Sahu",
     Photo:
-      "https://drive.google.com/uc?id=1nDa2fxL8_IXD3WBW6s2dOEF406Jwd6W9&export=download",
+    "https://drive.google.com/uc?id=1nDa2fxL8_IXD3WBW6s2dOEF406Jwd6W9&export=download",
     Branch: "META",
     "Graduation Year": 2023,
     Domain: "Design",
@@ -55,7 +66,7 @@ const headCoordinators = [
   {
     Name: "Akashdeep Chandrakar",
     Photo:
-      "https://drive.google.com/uc?id=1tFOYfJdsmSOmco8li2l8le806_pfzwGR&export=download",
+    "https://drive.google.com/uc?id=1tFOYfJdsmSOmco8li2l8le806_pfzwGR&export=download",
     Branch: "IT",
     "Graduation Year": 2023,
     Domain: "Technical",

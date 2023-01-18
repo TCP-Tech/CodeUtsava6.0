@@ -11,6 +11,17 @@
   flex-direction: column;
 }
 
+.codeutsava__team-header-container{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.codeutsava__team-header-container img{
+  width: 150px;
+  height: auto;
+}
+
 
 .codeutsava__team-main-title {
     font-style: normal;
@@ -19,7 +30,7 @@
     text-align: center;
     letter-spacing: 1px;
     color: white;
-    margin-top: 4rem;
+    margin-left: 2rem;
   }
 
 .codeutsava__team-title {
@@ -43,6 +54,14 @@
 }
 
 @media screen and (max-width: 650px) {
+  .codeutsava__team-header-container img{
+    width: 80px;
+    height: auto;
+  }
+  .codeutsava__team-main-title {
+    font-size: 24px;
+    margin-left: 1rem;
+  }
   .codeutsava__team-speakers {
     gap: 2rem;
     flex-direction: column;

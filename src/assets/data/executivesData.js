@@ -1,3 +1,5 @@
+import aditya from '../images/aditya.jpg'
+
 const executives = [
   {
     Name: "Viraj Chandra",
@@ -160,6 +162,16 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/harsh-nahar-164632227",
   },
   {
+    Name: "Aditya Prasad",
+    Photo:
+      "https://drive.google.com/uc?id=1Dh2B3f98OriVslezahl48MmK3u3nuokC&export=download",
+    Branch: "IT",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "http://linkedin.com/in/aditya-prasad-x007",
+  },
+  {
     Name: "Neel Sharma",
     Photo:
       "https://drive.google.com/uc?id=1g86zrOJ3AtogC5t3-bVviUML3iW_oNAX&export=download",
@@ -249,16 +261,6 @@ const executives = [
     Domain: "PR & Marketing",
     Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/prachi-bhugaonkar-681b35227",
-  },
-  {
-    Name: "Aditya Prasad",
-    Photo:
-      "https://drive.google.com/uc?id=1Dh2B3f98OriVslezahl48MmK3u3nuokC&export=download",
-    Branch: "IT",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "http://linkedin.com/in/aditya-prasad-x007",
   },
   {
     Name: "MD Shamshul Qamar",
