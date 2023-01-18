@@ -72,7 +72,7 @@ const executives = [
   {
     Name: "Tathagat Sahay",
     Photo:
-      "https://drive.google.com/file/d/1_v0qYsGKU23ofsNNOZjGIodAA8hm5uld/view?usp=share_link",
+      "https://drive.google.com/uc?id=1_v0qYsGKU23ofsNNOZjGIodAA8hm5uld&export=download",
     Branch: "Electrical Engineering",
     "Graduation Year": 2025,
     Domain: "Design",
@@ -82,7 +82,7 @@ const executives = [
   {
     Name: "Hemant Pradeep Modi",
     Photo:
-      "https://drive.google.com/file/d/1q9nj2LN1Clz6DZB0P_85cpJdixBdrTVe/view?usp=sharing",
+      "https://drive.google.com/uc?id=1q9nj2LN1Clz6DZB0P_85cpJdixBdrTVe&export=download",
     Branch: "Electronics and Communication Engineering",
     "Graduation Year": 2025,
     Domain: "Design",
@@ -92,7 +92,7 @@ const executives = [
   {
     Name: "Deepesh Genani",
     Photo:
-      "https://drive.google.com/file/d/1aa7xxC5xOYD0VK65Z0-k_ROX_JyOb3eN/view?usp=drivesdk",
+      "https://drive.google.com/uc?id=1aa7xxC5xOYD0VK65Z0-k_ROX_JyOb3eN&export=download",
     Branch: "MME",
     "Graduation Year": 2025,
     Domain: "Video Editing / Design",
