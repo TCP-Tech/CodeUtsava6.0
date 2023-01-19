@@ -59,6 +59,15 @@ const managers = [
     linkedin: "http://www.linkedin.com/in/hridam-palwe",
   },
   {
+    Name: "Neha Gaikwad",
+    Photo:"https://drive.google.com/uc?id=1bHmAugxZrsndk4Zw_LD3-oJd5xtGW87n&export=download",
+    Branch: "Information Technology",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Core Manager",
+    linkedin: "https://www.linkedin.com/in/neha-gaikwad-2a3976213",
+  },
+  {
     Name: "Sakshi Agrawal",
     Photo:
       "https://drive.google.com/uc?id=1jFyVAmUVLvYhcnyF2JSJfkbEan5tlbpX&export=download",
