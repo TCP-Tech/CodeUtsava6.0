@@ -20,6 +20,15 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/rohit-jaiswal-557b871aa/",
   },
   {
+    Name: "Shreyash Amrutam",
+    Photo:"https://drive.google.com/uc?id=1gEnUW9fWiG4L6aoGWV68zYjRn6L4EsYo&export=download",
+    Branch: "Chemical Engineering",
+    "Graduation Year": 2024,
+    Domain: "Design",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/shreyash-amrutam-331832232",
+  },
+  {
     Name: "Sayena",
     Photo:
       "https://drive.google.com/uc?id=19sOBx93qQImagwVLYbKVGAVH8brveC86&export=download",

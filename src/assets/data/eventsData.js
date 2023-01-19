@@ -1,7 +1,6 @@
 import event1 from '../images/event1.png'
 import event2 from '../images/event2.png'
-import event3 from '../images/file7.png'
-import event4 from '../images/file8.png'
+import event3 from '../images/event3.png'
 
 const events = [
   {
@@ -15,25 +14,10 @@ const events = [
     img: event2,
   },
   {
-    title: "Interactive Session on Data Science",
-    date: "20th February",
+    title: "CP and Algo Bootcamp",
+    date: "21st and 22nd January",
     img: event3,
   },
-  {
-    title: "28 Hours Hackathon",
-    date: "26th and 27th February",
-    img: event4,
-  },
-  {
-    title: "Interactive Session for Cracking Product Based Companies",
-    date: "13th February",
-    img: event3,
-  },
-  {
-    title: "Coding Contest",
-    date: "14th February",
-    img: event3,
-  }, // repeated these two data to show scroll effect
 ];
 
 export default events;
