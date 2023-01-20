@@ -26,7 +26,7 @@ const overAllCoordinaters = [
     "https://drive.google.com/uc?id=1Jt25y3MMeUbK0zcQ3QdMIrZeyJs0x6Q1&export=download",
     Branch: "IT",
     "Graduation Year": 2023,
-    Domain: "Mentors (4th years HCs only)",
+    Domain: "Mentors",
     Designation: "Overall Coordinator",
     linkedin: "https://www.linkedin.com/in/mahimmittal01/",
   },

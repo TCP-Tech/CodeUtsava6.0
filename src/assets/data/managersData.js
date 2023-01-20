@@ -64,7 +64,7 @@ const managers = [
     Branch: "Information Technology",
     "Graduation Year": 2024,
     Domain: "Documentation",
-    Designation: "Core Manager",
+    Designation: "Manager",
     linkedin: "https://www.linkedin.com/in/neha-gaikwad-2a3976213",
   },
   {
