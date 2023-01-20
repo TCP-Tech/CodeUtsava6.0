@@ -15,7 +15,7 @@ const Section6 = () => {
       id="sponsers"
     >
       <div className="codeutsava__section6-body">
-        <div className="codeutsava__section6-title">Sponsers</div>
+        <div className="codeutsava__section6-title">Sponsors</div>
         <div className="codeutsava__section6-content">
           On behalf of team TCP, we would like to publicly thank the generous
           sponsors without whom this event could not be held so smoothly.
