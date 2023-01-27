@@ -26,6 +26,7 @@ const Section3 = () => {
               img={event.img}
               title={event.title}
               date={event.date}
+              link={event.link}
             />
           ))}
         </Slider>
