@@ -49,12 +49,12 @@ const Section1 = () => {
           className="codeutsava__section1-button-container"
           style={{ display: "flex", placeContent: "center" }}
         >
-          {/* <div
+          <div
             className="apply-button"
-            data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            data-hackathon-slug="codeutsava-3"
             data-button-theme="dark-inverted"
             style={{ height: "44px", width: "312px" }}
-          ></div> */}
+          ></div>
           <div className="codeutsava__section1-discord">
             <a className="codeutsava__section1-discord-link">
               <img src={discord} />
