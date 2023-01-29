@@ -28,7 +28,7 @@ const faqs = [
   {
     question: "What could be the size of the team?",
     answer:
-      "You can make teams of up to 5 members. Lone wolfs are also welcome.",
+      "You can make teams of 3-6 members.",
   },
   {
     question: "Why should I participate in CodeUtsava 6.0?",
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: "What is the Code of Conduct?",
     answer:
-      "To ensure a positive experience among all the participants, we follow the MLH Code of Conduct. It is advised that you go through it once.",
+      "To ensure a positive experience among all the participants, we follow the SIH Code of Conduct. It is advised that you go through it once.",
   },
 ];
 

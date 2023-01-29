@@ -3,7 +3,7 @@ const Prizes = [
         title : "Winner Team",
         cashPrize : [
             'Team will be awarded prizes worth Rs. 2.5 Lakhs.',
-            'Cash Prize of Rs. 20,000.',
+            'Cash Prize of Rs. 35,000.',
         ],
         prizeInfo : [
             'Digital Ocean credits worth Rs. 75,000.',
@@ -16,7 +16,7 @@ const Prizes = [
         title : "Runner-up Team",
         cashPrize : [
             'Team will be awarded prizes worth Rs. 1.9 Lakhs.',
-            'Cash Prize of Rs. 15,000.',
+            'Cash Prize of Rs. 25,000.',
         ],
         prizeInfo : [
             'Digital Ocean credits worth Rs. 57,000.',
@@ -29,7 +29,7 @@ const Prizes = [
         title : "Second Runner-up Team",
         cashPrize : [
             'Team will be awarded prizes worth Rs. 1.1 Lakhs.',
-            'Cash Prize of Rs. 10,000.',
+            'Cash Prize of Rs. 15,000.',
         ],
         prizeInfo : [
             'Digital Ocean credits worth Rs. 19,000.',
@@ -42,7 +42,7 @@ const Prizes = [
         title : "Winning Team of each category (Five Categories)",
         cashPrize : [
             'Team will be awarded prizes worth Rs. 37,500.',
-            'Cash Prize of Rs. 5,000.',
+            'Cash Prize of Rs. 10,000.',
         ],
         prizeInfo : [
             'Digital Ocean credits worth Rs. 7,500.',
