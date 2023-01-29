@@ -10,6 +10,95 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/animesh-agrawal-6b3389191",
   },
   {
+    Name: "Vizan Sugee",
+    Photo:
+      "https://drive.google.com/uc?id=12eU2Di9RN6ep8oI7Ma7yhDnAQK493q9u&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/vizan-sugee-verma-b28140215",
+  },
+  {
+    Name: "Neha Gaikwad",
+    Photo:"https://drive.google.com/uc?id=1bHmAugxZrsndk4Zw_LD3-oJd5xtGW87n&export=download",
+    Branch: "Information Technology",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/neha-gaikwad-2a3976213",
+  },
+  {
+    Name: "Prachi Nagdeve",
+    Photo:
+      "https://drive.google.com/uc?id=1x6Jx5IGzBkAqA6jOvF8PYA5ZFKc6JWVM&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/prachi-nagdeve-365388227",
+  },
+  {
+    Name: "Aditi Srivastava",
+    Photo:
+      "https://drive.google.com/uc?id=1Y_f3t0eDNo83fcrdQNwDEk4KEK_mqd8r&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/aditi-srivastava-b41aa51ba/",
+  },
+  {
+    Name: "Ayut Jain",
+    Photo:
+      "https://drive.google.com/uc?id=1wTWFeSldCHwQKha0ll_Om02V9hhxzKrn&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "linkedin.com/in/ayut-jain-366852200",
+  },
+  {
+    Name: "Hridam Palwe",
+    Photo:
+      "https://drive.google.com/uc?id=1TOA5zrwJwCEpuuEKBwMKQBP-hLub-LUN&export=download",
+    Branch: "IT",
+    "Graduation Year": 2024,
+    Domain: "Documentation",
+    Designation: "Manager",
+    linkedin: "http://www.linkedin.com/in/hridam-palwe",
+  },
+  {
+    Name: "Palak Jain",
+    Photo:
+      "https://drive.google.com/uc?id=15ayeROAILuGlQEMngr9tpHBVeP8GDyAb&export=download",
+    Branch: "MECH",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/palak-jain-80045b1a7",
+  },
+  {
+    Name: "Roshani Patel",
+    Photo:
+      "https://drive.google.com/uc?id=1R-9mwG8GA6GhbDkjr_DI281xpWvfX1BV&export=download",
+    Branch: "MECH",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/roshani-patel-21242022a",
+  },
+  {
+    Name: "Yogesh Kumar Sharma",
+    Photo:
+      "https://drive.google.com/uc?id=1FRebL9c4wOiPf4OPoEceuYtRAzDd4LRx&export=download",
+    Branch: "CIVIL",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/yogesh-kumar-sharma-21692122b",
+  },
+  {
     Name: "Rohit Jaiswal",
     Photo:
       "https://drive.google.com/uc?id=1EvUqCG2eEHKfIgp8DW1-NttG9P6odPta&export=download",
@@ -49,25 +138,6 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/shrajan-pandey-a38033200",
   },
   {
-    Name: "Hridam Palwe",
-    Photo:
-      "https://drive.google.com/uc?id=1TOA5zrwJwCEpuuEKBwMKQBP-hLub-LUN&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "Documentation",
-    Designation: "Manager",
-    linkedin: "http://www.linkedin.com/in/hridam-palwe",
-  },
-  {
-    Name: "Neha Gaikwad",
-    Photo:"https://drive.google.com/uc?id=1bHmAugxZrsndk4Zw_LD3-oJd5xtGW87n&export=download",
-    Branch: "Information Technology",
-    "Graduation Year": 2024,
-    Domain: "Documentation",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/neha-gaikwad-2a3976213",
-  },
-  {
     Name: "Sakshi Agrawal",
     Photo:
       "https://drive.google.com/uc?id=1jFyVAmUVLvYhcnyF2JSJfkbEan5tlbpX&export=download",
@@ -76,46 +146,6 @@ const managers = [
     Domain: "PR & Marketing",
     Designation: "Manager",
     linkedin: "https://www.linkedin.com/in/sakshi-agrawall",
-  },
-  {
-    Name: "Prachi Nagdeve",
-    Photo:
-      "https://drive.google.com/uc?id=1x6Jx5IGzBkAqA6jOvF8PYA5ZFKc6JWVM&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/prachi-nagdeve-365388227",
-  },
-  {
-    Name: "Vizan Sugee",
-    Photo:
-      "https://drive.google.com/uc?id=12eU2Di9RN6ep8oI7Ma7yhDnAQK493q9u&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/vizan-sugee-verma-b28140215",
-  },
-  {
-    Name: "Aditi Srivastava",
-    Photo:
-      "https://drive.google.com/uc?id=1Y_f3t0eDNo83fcrdQNwDEk4KEK_mqd8r&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/aditi-srivastava-b41aa51ba/",
-  },
-  {
-    Name: "Yogesh Kumar Sharma",
-    Photo:
-      "https://drive.google.com/uc?id=1FRebL9c4wOiPf4OPoEceuYtRAzDd4LRx&export=download",
-    Branch: "CIVIL",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/yogesh-kumar-sharma-21692122b",
   },
   {
     Name: "Samyak Meshram",
@@ -146,36 +176,6 @@ const managers = [
     Domain: "PR & Marketing",
     Designation: "Manager",
     linkedin: "https://www.linkedin.com/in/animesh-kumar-3272541a6",
-  },
-  {
-    Name: "Ayut Jain",
-    Photo:
-      "https://drive.google.com/uc?id=1wTWFeSldCHwQKha0ll_Om02V9hhxzKrn&export=download",
-    Branch: "IT",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "linkedin.com/in/ayut-jain-366852200",
-  },
-  {
-    Name: "Palak Jain",
-    Photo:
-      "https://drive.google.com/uc?id=15ayeROAILuGlQEMngr9tpHBVeP8GDyAb&export=download",
-    Branch: "MECH",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/palak-jain-80045b1a7",
-  },
-  {
-    Name: "Roshani Patel",
-    Photo:
-      "https://drive.google.com/uc?id=1R-9mwG8GA6GhbDkjr_DI281xpWvfX1BV&export=download",
-    Branch: "MECH",
-    "Graduation Year": 2024,
-    Domain: "PR & Marketing",
-    Designation: "Manager",
-    linkedin: "https://www.linkedin.com/in/roshani-patel-21242022a",
   },
   {
     Name: "Yuvraj Singh Chauhan",
