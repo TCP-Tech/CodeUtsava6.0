@@ -6,6 +6,7 @@ import discord from "../../assets/images/discord.svg";
 import { motion, transform } from "framer-motion";
 import { staggerChildren, fadeIn } from "../../motionUtils";
 import "../../../node_modules/font-awesome/css/font-awesome.min.css";
+import register from "../../assets/images/register.pdf"
 
 const Section1 = () => {
   React.useEffect(() => {
@@ -56,8 +57,13 @@ const Section1 = () => {
             style={{ height: "44px", width: "312px" }}
           ></div>
           <div className="codeutsava__section1-discord">
-            <a className="codeutsava__section1-discord-link">
+            <a className="codeutsava__section1-discord-link" href="https://discord.gg/cDR4jkb7wZ" target="_blank">
               <img src={discord} />
+            </a>
+          </div>
+          <div className="codeutsava__section1-register">
+            <a className="codeutsava__section1-register-link" href={register} download="Resgistration Instructions">
+              Steps To Register On Devfolio
             </a>
           </div>
         </div>
