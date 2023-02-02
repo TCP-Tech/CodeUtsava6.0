@@ -36,6 +36,10 @@
   display:none;
 }
 
+.slick-list{
+  overflow-y: hidden !important;
+}
+
 .codeutsava__section3-events-container .slider .slick-arrow .slick-prev button{
   display: none;
 }
