@@ -52,6 +52,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="codeutsava__navbar-navitem">
+                <a href="#format">
+                  <h3 className="codeutsava__navbar-menu-heading">Our Format</h3>
+                </a>
+              </li>
+              <li className="codeutsava__navbar-navitem">
                 <a href="#sponsers">
                   <h3 className="codeutsava__navbar-menu-heading">Sponsors</h3>
                 </a>
@@ -145,6 +150,13 @@ const Navbar = () => {
             <a href="#speakers" onClick={toggleMenu}>
               <h3 className="codeutsava__navbar-hamburger-menu-heading">
                 Speakers
+              </h3>
+            </a>
+          </li>
+          <li className="codeutsava__navbar-hamburger-navitem">
+            <a href="#format" onClick={toggleMenu}>
+              <h3 className="codeutsava__navbar-hamburger-menu-heading">
+                Our Format
               </h3>
             </a>
           </li>

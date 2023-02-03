@@ -212,12 +212,22 @@ const shortlistedTeams = [
   },
   {
     name: "Exception!",
-    college: "Bhilai Institute of Technology- Durg",
+    college: "Bhilai Institute of Technology Durg",
     leader: "Sanskriti Harmukh",
     member1: "Adiba Noor",
     member2: "Chaitanya Rao",
     member3: "Krish Chopra",
     member4: "Shubhankar Tiwary",
+  },
+  {
+    name: "Technicutives",
+    college: "National Institute of Technology Raipur",
+    leader: "Aditya Prasad",
+    member1: "Prerna Singh",
+    member2: "Harsh Dewangan",
+    member3: "Bhupendra Gehlot",
+    member4: "Anuj Kumar",
+    member5: "Mohit Doraiburu",
   },
 ];
 
