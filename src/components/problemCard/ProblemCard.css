@@ -81,6 +81,7 @@
   background: white;
   color: black;
   border-radius: 20px;
+  box-shadow: 10px 10px 71px 23px rgba(87,87,87,1);
 }
 
 .problemModal-close {

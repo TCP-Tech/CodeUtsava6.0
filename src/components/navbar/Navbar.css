@@ -140,7 +140,7 @@
     /* identical to box height, or 122% */
     letter-spacing: 1.5px;
     text-transform: capitalize;
-    margin: 1.5rem;
+    margin: 1.5rem 1.1rem;
     color: #b0b0b0;
     cursor: pointer;
   }

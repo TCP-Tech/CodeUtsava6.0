@@ -7,7 +7,6 @@ import shortlistedTeams from "../../assets/data/shortlistedTeamsData";
 import ShortlistedTeamCard from "../../components/shortlistedTeamCard/ShortlistedTeamCard";
 import { motion } from "framer-motion";
 
-
 const Section11 = () => {
   const useFade = (initial) => {
     const [show, setShow] = useState(initial);
@@ -44,15 +43,18 @@ const Section11 = () => {
         <div className="codeutsava__section11-title">Shortlisted Teams</div>
         <div className="codeutsava__section11-problems">
           <div className="codeutsava__section11-problems-container1">
-            {shortlistedTeams.map((problem, index) => (
+            {shortlistedTeams.map((shortlistedTeam, index) => (
               <ShortlistedTeamCard
                 key={index}
-                name={problem.name}
-                leader={problem.leader}
-                member1={problem.member1}
-                member2={problem.member2}
-                member3={problem.member3}
-                member4={problem.member4}
+                name={shortlistedTeam.name}
+                leader={shortlistedTeam.leader}
+                college={shortlistedTeam.college}
+                member1={shortlistedTeam.member1}
+                member2={shortlistedTeam.member2}
+                member3={shortlistedTeam.member3}
+                member4={shortlistedTeam.member4}
+                member5={shortlistedTeam.member5}
+                member6={shortlistedTeam.member6}
               />
             ))}
           </div>
@@ -61,18 +63,20 @@ const Section11 = () => {
               className="codeutsava__section11-problems-container2"
               {...fadeProps}
             >
-              {shortlistedTeams
-                .map((problem, index) => (
-                  <shortlistedTeams
+              {shortlistedTeams.map((shortlistedTeam, index) => (
+                <shortlistedTeams
                   key={index}
-                  name={problem.name}
-                  leader={problem.leader}
-                  member1={problem.member1}
-                  member2={problem.member2}
-                  member3={problem.member3}
-                  member4={problem.member4}
-                  />
-                ))}
+                  name={shortlistedTeam.name}
+                  leader={shortlistedTeam.leader}
+                  college={shortlistedTeam.college}
+                  member1={shortlistedTeam.member1}
+                  member2={shortlistedTeam.member2}
+                  member3={shortlistedTeam.member3}
+                  member4={shortlistedTeam.member4}
+                  member5={shortlistedTeam.member5}
+                  member6={shortlistedTeam.member6}
+                />
+              ))}
             </div>
           )}
         </div>

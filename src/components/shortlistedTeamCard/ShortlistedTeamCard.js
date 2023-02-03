@@ -6,13 +6,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import './ShortlistedTeamCard.css'
 import cross from '../../assets/images/cross.png'
 
-const ShortlistedTeamCard = ({name,leader,member1,member2,member3,member4,member5}) => {
+const ShortlistedTeamCard = ({name,leader,college,member1,member2,member3,member4,member5,member6}) => {
 
   const [modal, setModal] = useState(false);
   const [team, setTeam] = useState([]);
 
-  const getTeam = (name,leader,member1,member2,member3,member4,member5) => {
-    let temp = [name,leader,member1,member2,member3,member4,member5]
+  const getTeam = (name,leader,college,member1,member2,member3,member4,member5,member6) => {
+    let temp = [name,leader,college,member1,member2,member3,member4,member5,member6]
     setTeam(item => [1, ...temp])
     return setModal(true)
   }
@@ -37,13 +37,17 @@ const ShortlistedTeamCard = ({name,leader,member1,member2,member3,member4,member
             exit={{scaleX: [1, 1, 0], scaleY: [1, 0.005, 0.005] }}
             className="codeutsava__section11-problemModal-body">
               <img className="problemModal-close" src={cross} onClick={() => setModal(false)}/>
-              <h1>{name}</h1>
-              <p style={{fontWeight:"600"}}>{leader}</p>
+              <h1>Team Name: {name}</h1>
+              <p style={{fontWeight:"600"}}>College: {college}</p>
+              <p style={{fontWeight:"600"}}>Team Leader: {leader}</p>
+              <p style={{fontWeight:"600"}}>Team Members</p>
+              <p>{leader}</p>
               <p>{member1}</p>
               <p>{member2}</p>
               <p>{member3}</p>
               <p>{member4}</p>
               <p>{member5}</p>
+              <p>{member6}</p>
           </motion.div>
         }
       </AnimatePresence>
