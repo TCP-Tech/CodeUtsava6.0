@@ -37,13 +37,13 @@ const Section11 = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, transition: { duration: 1 } }}
       viewport={{ once: false }}
-      className="codeutsava__section8"
+      className="codeutsava__section11"
       id="problems"
     >
-      <div className="codeutsava__section8-body">
-        <div className="codeutsava__section8-title">Shortlisted Teams</div>
-        <div className="codeutsava__section8-problems">
-          <div className="codeutsava__section8-problems-container1">
+      <div className="codeutsava__section11-body">
+        <div className="codeutsava__section11-title">Shortlisted Teams</div>
+        <div className="codeutsava__section11-problems">
+          <div className="codeutsava__section11-problems-container1">
             {shortlistedTeams.map((problem, index) => (
               <ShortlistedTeamCard
                 key={index}
@@ -58,7 +58,7 @@ const Section11 = () => {
           </div>
           {isVisible && (
             <div
-              className="codeutsava__section8-problems-container2"
+              className="codeutsava__section11-problems-container2"
               {...fadeProps}
             >
               {shortlistedTeams

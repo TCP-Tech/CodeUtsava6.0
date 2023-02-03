@@ -1,18 +1,18 @@
-.codeutsava__section8 {
+.codeutsava__section11 {
   padding-top: 4rem;
   padding-bottom: 2rem;
   color: white;
   font-family: "Poppins";
 }
 
-.codeutsava__section8-body {
+.codeutsava__section11-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.codeutsava__section8-title {
+.codeutsava__section11-title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -22,7 +22,7 @@
   margin-bottom: 4rem;
 }
 
-.codeutsava__section8-problems {
+.codeutsava__section11-problems {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@
 
 }
 
-.codeutsava__section8-button {
+.codeutsava__section11-button {
   border: 1px solid #d7d7d7;
   border-radius: 10px;
   cursor: pointer;
@@ -48,7 +48,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.codeutsava__section8-button:hover {
+.codeutsava__section11-button:hover {
   transition: all 0.2s ease-in-out;
   color: white;
   background-color: #38b6ff;
@@ -56,7 +56,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .codeutsava__section8-title {
+  .codeutsava__section11-title {
     font-size: 36px;
     line-height: normal;
   }
