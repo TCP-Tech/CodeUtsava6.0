@@ -30,12 +30,12 @@ export default class HomePage extends Component {
           <Section2/>
           <Section3/>
           <Section4/>
-          <Section11/>
           <Section5/>
           <Section6/>
           <Section7/>
           <Section8/>
           <Section9/>
+          <Section11/>
           <Section10/>
         </div>
         <div className="codeutsava__footer-container">
