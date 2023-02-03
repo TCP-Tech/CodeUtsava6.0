@@ -14,6 +14,7 @@ import Section9 from '../../sections/section9/Section9';
 import Section8 from '../../sections/section8/Section8';
 import Section10 from '../../sections/section10/Section10';
 import Footer from '../../components/footer/Footer';
+import Section11 from '../../sections/section11/Section11';
 export default class HomePage extends Component {
   render() {
     return (
@@ -29,6 +30,7 @@ export default class HomePage extends Component {
           <Section2/>
           <Section3/>
           <Section4/>
+          <Section11/>
           <Section5/>
           <Section6/>
           <Section7/>
