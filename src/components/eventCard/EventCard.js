@@ -11,6 +11,7 @@ const EventCard = ({ img, title, date, link }) => {
       <div className="codeutsava__section3-cardTitle">{title}</div>
       <div className="codeutsava__section3-divider"></div>
       <div className="codeutsava__section3-details">{date}</div>
+
     </div>
   );
 };
