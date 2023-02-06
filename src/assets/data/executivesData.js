@@ -202,6 +202,16 @@ const executives = [
     linkedin: "https://www.linkedin.com/in/anuragnitrr",
   },
   {
+    Name: "Shatanshu Bodkhe",
+    Photo:
+      "https://drive.google.com/uc?id=178bDP7Q2yEj5JxdqArwOONgATmZe9Nwz&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2025,
+    Domain: "PR & Marketing",
+    Designation: "Executive",
+    linkedin: "https://www.linkedin.com/in/shatanshu-bodkhe-001a521b8",
+  },
+  {
     Name: "Nisha Dahare",
     Photo:
       "https://drive.google.com/uc?id=1g6lUddoNn_cFhEoiwOjLTJIAskN8SS9L&export=download",
@@ -311,16 +321,6 @@ const executives = [
     Domain: "PR & Marketing",
     Designation: "Executive",
     linkedin: "https://www.linkedin.com/in/kriti-arora-9a5045209",
-  },
-  {
-    Name: "Shatanshu Bodkhe",
-    Photo:
-      "https://drive.google.com/uc?id=178bDP7Q2yEj5JxdqArwOONgATmZe9Nwz&export=download",
-    Branch: "CSE",
-    "Graduation Year": 2025,
-    Domain: "PR & Marketing",
-    Designation: "Executive",
-    linkedin: "https://www.linkedin.com/in/shatanshu-bodkhe-001a521b8",
   },
 ];
 
