@@ -79,6 +79,16 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/palak-jain-80045b1a7",
   },
   {
+    Name: "Nanda Kiran",
+    Photo:
+      "https://drive.google.com/uc?id=137s6t17blZUVOMR1mmFpPZW9VyE99z3H&export=download",
+    Branch: "CSE",
+    "Graduation Year": 2024,
+    Domain: "PR & Marketing",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/nandakiranvelaga",
+  },
+  {
     Name: "Roshani Patel",
     Photo:
       "https://drive.google.com/uc?id=1R-9mwG8GA6GhbDkjr_DI281xpWvfX1BV&export=download",
