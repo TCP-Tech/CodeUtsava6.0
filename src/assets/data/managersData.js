@@ -109,6 +109,16 @@ const managers = [
     linkedin: "https://www.linkedin.com/in/rohit-jaiswal-557b871aa/",
   },
   {
+    Name: "Saisiddharth Kavikondala",
+    Photo:
+      "https://drive.google.com/uc?id=1CrMWucK4H3BXQ5d6cTNeKwXatOYqHbFI&export=download",
+    Branch: "Mechanical Engineering",
+    "Graduation Year": 2024,
+    Domain: "Design",
+    Designation: "Manager",
+    linkedin: "https://www.linkedin.com/in/saisiddharth-kavikondala-b62158221",
+  },
+  {
     Name: "Shreyash Amrutam",
     Photo:"https://drive.google.com/uc?id=1gEnUW9fWiG4L6aoGWV68zYjRn6L4EsYo&export=download",
     Branch: "Chemical Engineering",
