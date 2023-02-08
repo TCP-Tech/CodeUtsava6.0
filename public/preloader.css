@@ -1,6 +1,6 @@
 .intro-container {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     color: white;
     text-align: center;
@@ -12,6 +12,22 @@
     flex-direction: column;
     width: max-content;
 }
+
+.intro-container1 {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+
 
 #root{
     display: none;
