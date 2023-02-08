@@ -155,7 +155,7 @@ window.addEventListener("mousemove", function (event) {
   normalizedMouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
 });
 
-let introContainer = $(".intro-container");
+// let introContainer = $(".intro-container");
 let introContainer1 = $(".intro-container1");
 let skyContainer = $(".sky-container");
 let roo = $("#root");
@@ -166,17 +166,17 @@ $(".shift-camera-button").click(function () {
 
   introTimeline.add([
     TweenLite.fromTo(
-      introContainer,
-      0.5,
-      { opacity: 1 },
-      { opacity: 0, ease: Power3.easeIn }
-    ),
-    TweenLite.fromTo(
       introContainer1,
       0.5,
       { opacity: 1 },
       { opacity: 0, ease: Power3.easeIn }
     ),
+    // TweenLite.fromTo(
+    //   introContainer1,
+    //   0.5,
+    //   { opacity: 1 },
+    //   { opacity: 0, ease: Power3.easeIn }
+    // ),
     TweenLite.to(camera.rotation, 3, {
       x: Math.PI / 2,
       ease: Power3.easeInOut,
