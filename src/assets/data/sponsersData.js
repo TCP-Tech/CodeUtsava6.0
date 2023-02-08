@@ -9,6 +9,7 @@ import sponser8 from "../images/sponsers/sponser8.png";
 import sponser9 from "../images/sponsers/sponser9.png";
 import sponser10 from "../images/sponsers/sponser10.png";
 import sponser11 from "../images/sponsers/sponser11.png";
+import sponser12 from "../images/sponsers/sponser12.png";
 
 const platinum = [
   {
@@ -45,11 +46,14 @@ const silver = [
     img: sponser9,
   },
   {
-    img: sponser10,
-  }, 
+    img: sponser12,
+  },
   {
     img: sponser11,
-  }
+  },
+  {
+    img: sponser10,
+  }, 
 ];
 
 // const bronze = [
