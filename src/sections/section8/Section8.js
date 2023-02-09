@@ -50,6 +50,7 @@ const Section8 = () => {
                 key={index}
                 img={problem.img}
                 title={problem.title}
+                domain={problem.domain}
                 statement={problem.statement}
               />
             ))}
@@ -66,6 +67,7 @@ const Section8 = () => {
                     key={index}
                     img={problem.img}
                     title={problem.title}
+                    domain={problem.domain}
                     statement={problem.statement}
                   />
                 ))}

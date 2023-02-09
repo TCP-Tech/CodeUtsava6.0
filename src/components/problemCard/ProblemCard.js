@@ -6,13 +6,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import './ProblemCard.css'
 import cross from '../../assets/images/cross.png'
 
-const ProblemCard = ({img,title,statement}) => {
+const ProblemCard = ({img,title,domain,statement}) => {
 
   const [modal, setModal] = useState(false);
   const [problem, setProblem] = useState([]);
 
-  const getProblem = (img, title, statement) => {
-    let temp = [img, title, statement]
+  const getProblem = (img, title, domain, statement) => {
+    let temp = [img, title, domain, statement]
     setProblem(item => [1, ...temp])
     return setModal(true)
   }
@@ -22,14 +22,14 @@ const ProblemCard = ({img,title,statement}) => {
   return (
     <div>
       <div className="codeutsava__section8-card">
-          <img className='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, statement)}></img>
+          <img className='codeutsava__section8-image' src={img} onClick={() => getProblem(img, title, domain, statement)}></img>
           <div className="codeutsava__section8-cardtitle">
               {title}
           </div>
           <div className="codeutsava__section8-line">
           </div>
           <div className="codeutsava__section8-carddetails">
-              {statement}
+              {domain}
           </div>
       </div>
 
@@ -47,7 +47,9 @@ const ProblemCard = ({img,title,statement}) => {
               <img className="problemModal-close" src={cross} onClick={() => setModal(false)}/>
               <h1>{title}</h1>
               <p>{statement}</p>
-              <img src={img}/>
+              <div className="codeutsava__section8-problemModal-body-img">
+                <img src={img}/>
+              </div>
           </motion.div>
         }
       </AnimatePresence>
