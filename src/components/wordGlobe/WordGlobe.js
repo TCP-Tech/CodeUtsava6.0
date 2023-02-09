@@ -27,7 +27,8 @@ const WordGlobe = () => {
               "SQL",
               "ExpressJs",
               "Figma",
-              "CodeEase",
+              "Codease",
+              "Code Riddles",
               "Hackathon",
               "Quiz",
             ]}
