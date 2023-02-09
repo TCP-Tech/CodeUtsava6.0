@@ -25,7 +25,7 @@ const problems = [
   },
   {
     title: "Problem 4: Smart Street Light System",
-    domain: 'ML and IOT',
+    domain: 'IOT',
     statement: "You have to create a system which have smart light dimming module. The system should perform following operations as per the situation 1. If visibility of street light bulb is low, then the intensity of light should be maximized. 2. To dim the street lights automatically when no movement is detected and the intensity of light will increase automatically. (Extra : How will the system detect the movement in rainy season? ) 3. The system should keep a track of all the street lights on the basis of their area, pin code, number of poles, and number of poles in working state. Store these information in the database. Also, send notification to the department to replace the faulty bulbs.",
     img: problem4,
   },
