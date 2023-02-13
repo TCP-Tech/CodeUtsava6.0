@@ -1,6 +1,6 @@
-.codeutsava__section11-problems-container1 {
+.codeutsava__section11-problems-container1-winning {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   width: 90%;
 }
@@ -64,7 +64,6 @@
   justify-content: center;
   border-radius: 16px;
   font-weight: 600;
-  cursor: pointer;
 }
 
 .codeutsava__section11-image:hover {
@@ -105,7 +104,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .codeutsava__section11-problems-container1 {
+  .codeutsava__section11-problems-container1-winning {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -128,7 +127,7 @@
   .codeutsava__section11-problemModal-body {
     height: 65%;
   }
-  .codeutsava__section11-problems-container1 {
+  .codeutsava__section11-problems-container1-winning {
     grid-template-columns: repeat(1, 1fr);
   }
 
