@@ -1,9 +1,7 @@
-import samarth from '../images/samarth_batav.jpg'
-
 const overAllCoordinaters = [
   {
     Name: "Samarth Batav",
-    Photo: samarth,
+    Photo: "https://drive.google.com/uc?id=1HCErJ9uik_cjFYh94fT-iuu0WHRzLl_m&export=download",
     Branch: "IT",
     "Graduation Year": 2023,
     Domain: "Lead Organizer at CodeUtsava 6.0",

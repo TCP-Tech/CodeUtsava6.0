@@ -1,12 +1,7 @@
-import sugandha from '../images/sugandha.jpg'
-import astitva from '../images/astitva.jpg'
-import sahil from '../images/sahil.jpg'
-
 const headCoordinators = [
   {
     Name: "Sahil Silare",
-    Photo:
-    sahil,
+    Photo: "https://drive.google.com/uc?id=1q25vYWAL3lhf2D7qieZrUKDFwHLNmAfY&export=download",
     Branch: "CSE",
     "Graduation Year": 2023,
     Domain: "Technical",
@@ -135,7 +130,7 @@ const headCoordinators = [
   },
   {
     Name: "Astitva Sharma",
-    Photo: astitva,
+    Photo: "https://drive.google.com/uc?id=1guoo5ymGYY-7eCiijFuIlYEEMwP_Vqjj&export=download",
     Branch: "IT",
     "Graduation Year": 2023,
     Domain: "PR Head at CU 6.0",
@@ -144,7 +139,7 @@ const headCoordinators = [
   },
   {
     Name: "Sugandha Verma",
-    Photo: sugandha,
+    Photo: "https://drive.google.com/uc?id=1FoXFaVcDxR3JF9xgacQ0T30oTS6Um3O5&export=download",
     Branch: "ECE",
     "Graduation Year": 2023,
     Domain: "Lead Organizer at CodeUtsava 6.0",

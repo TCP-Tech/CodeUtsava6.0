@@ -1,5 +1,3 @@
-import aditya from '../images/aditya.jpg'
-
 const executives = [
   {
     Name: "Viraj Chandra",
@@ -164,7 +162,7 @@ const executives = [
   {
     Name: "Aditya Prasad",
     Photo:
-      "https://drive.google.com/uc?id=1Dh2B3f98OriVslezahl48MmK3u3nuokC&export=download",
+      "https://drive.google.com/uc?id=1uqtTir41QYTXEao1YyhZuh0eijugpeGB&export=download",
     Branch: "IT",
     "Graduation Year": 2025,
     Domain: "PR & Marketing",
