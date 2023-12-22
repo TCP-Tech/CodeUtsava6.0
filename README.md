@@ -1,70 +1,189 @@
-# Getting Started with Create React App
+[![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-In the project directory, you can run:
+<br />
+<p align="center">
+  <a href="https://github.com/TCP-Tech/CodeUtsava6.0">
+    <img src="/src/assets/images/codeutsavaTitle3d.webp" alt="Logo" width="400">
+  </a>
 
-### `npm start`
+  <h3 align="center">CodeUtsava 7.0</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    The Official Repository for the website of CodeUtsava 7.0
+    <br />
+    <br />
+    <a href="https://codeutsava7.netlify.app/">View Live</a>
+    ·
+    <a href="https://github.com/TCP-Tech/CodeUtsava6.0/issues">Report Bugs</a>
+    .
+    <a href="https://github.com/TCP-Tech/CodeUtsava6.0/issues">Add Features</a>
+  </p>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+      </ul>
+        <li><a href="#built-with">Built With</a></li>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#local-repository-setup-🎃">Local Repository Setup</a></li>
+        <li><a href="#running-the-project">Running the project</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#Turing Club Of Programmers">Turing Club Of Programmers</a></li>
+    <li><a href="#starware">Starware</a></li>
+  </ol>
+</details>
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CodeUtsava is an event being organized by Turing Club of Programmers, the Official Coding Club of NIT Raipur. It aims to foster and nurture invigorating coding culture among the students of the Institute through its Mentorship programme, workshops, and along with several other events including the annual event CodeUtsava. Students from all over India can take part in this event, attend Workshops, participate in the Hackathon, and various other coding related activities which are organized under this event.
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Following technologies and libraries are used for the development of this website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React]()
+- [Django]()
+- [Netlify]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To setup the project locally the steps below.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/en/download/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ```sh
+  # Homebrew
+  brew install nodejs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  # Sudo apt
+  sudo apt install nodejs
 
-## Learn More
+  # Packman
+  pacman -S nodejs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  # Module Install
+  dnf module install nodejs:<stream> # stream is the version
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  # Windows (chocolaty)
+  cinst nodejs.install
 
-### Code Splitting
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 
-### Analyzing the Bundle Size
+```sh
+  npm install --global yarn
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Git](https://git-scm.com/downloads)
 
-### Making a Progressive Web App
+```sh
+  # Homebrew
+  brew install git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  # Sudo apt
+  apt-get install git
 
-### Advanced Configuration
+  # Packman
+  pacman -S git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  # Module Install (Fedora)
+  dnf install git
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Our Discord Community: [Discord Invite](https://discord.gg/mq8PprVHUv) <br>
 
-### `npm run build` fails to minify
+### Local Repository Setup 🎃
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+1.  **Fork** the repo on GitHub
+2.  **Clone** the project to your local system
+3.  **Commit** changes to your own separate branch
+4.  **Push** your work back up to your fork
+5.  Submit a **Pull request** so that we can review your changes
+
+<!-- NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/dscnitrourkela/project-guava-web/blob/master/CONTRIBUTING.md). -->
+
+NOTE : Please abide by the [Code of Conduct](https://github.com/TCP-Tech/CodeUtsava6.0/CODE_OF_CONDUCT.md).
+
+### Running the project.
+
+The project uses Yarn and not NPM. It is strictly advised to stick with Yarn so as to avoid dependency conflicts down the line.
+
+```
+## Checkout into the project client directory
+cd client
+
+## Install Dependencies
+yarn install
+
+## Run the Project
+yarn develop
+
+```
+
+Following are the commands to remove/add new dependencies using yarn
+
+```
+## Add a new Package
+yarn add package_name
+
+## Remove an existing Package
+yarn remove package_name
+
+## Save Package as a Dev Dependency
+yarn add -D package_name
+```
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Turing Club Of Programmers
+
+![Turing Club Of Programmers][tcp]
+
+## Starware
+
+TCP-Tech/CodeUtsava6.0 is Starware.
+This means you're free to use the project, as long as you star its GitHub repository.
+Your appreciation makes us grow and glow up. ⭐
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/TCP-Tech/CodeUtsava6.0?style=for-the-badge
+[contributors-url]: https://github.com/TCP-Tech/CodeUtsava6.0/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TCP-Tech/CodeUtsava6.0?style=for-the-badge
+[forks-url]: https://github.com/TCP-Tech/CodeUtsava6.0/network/members
+[stars-shield]: https://img.shields.io/github/stars/TCP-Tech/CodeUtsava6.0?style=for-the-badge
+[stars-url]: https://github.com/TCP-Tech/CodeUtsava6.0/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TCP-Tech/CodeUtsava6.0?style=for-the-badge
+[issues-url]: https://github.com/TCP-Tech/CodeUtsava6.0/issues
+[license-shield]: https://img.shields.io/github/license/TCP-Tech/CodeUtsava6.0?style=for-the-badge
+[license-url]: https://github.com/TCP-Tech/CodeUtsava6.0/LICENSE
+[product-screenshot]: images/Compose.png
+[tcp]: src/assets/images/tcpName.png
