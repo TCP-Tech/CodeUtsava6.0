@@ -16,10 +16,10 @@
     <img src="/src/assets/images/codeutsavaTitle3d.webp" alt="Logo" width="400">
   </a>
 
-  <h3 align="center">CodeUtsava 7.0</h3>
+  <h3 align="center">CodeUtsava 6.0</h3>
 
   <p align="center">
-    The Official Repository for the website of CodeUtsava 7.0
+    The Official Repository for the website of CodeUtsava 6.0
     <br />
     <br />
     <a href="https://codeutsava7.netlify.app/">View Live</a>
