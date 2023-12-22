@@ -53,3 +53,10 @@
   background-color: #38b6ff;
   border: 1px solid #38b6ff;
 }
+
+@media screen and (max-width: 650px) {
+  .codeutsava__section8-title {
+    font-size: 36px;
+    line-height: normal;
+  }
+}

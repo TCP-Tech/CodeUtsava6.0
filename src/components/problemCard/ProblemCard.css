@@ -76,11 +76,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
   justify-content: center;
   z-index: 999;
+  padding: 2rem;
   background: white;
   color: black;
   border-radius: 20px;
+  box-shadow: 10px 10px 71px 23px rgba(87,87,87,1);
 }
 
 .problemModal-close {
@@ -91,3 +94,38 @@
   cursor: pointer;
   color: white;
 }
+
+
+
+.codeutsava__section8-problemModal-body-img{
+  width: 300px;
+  height: auto;
+}
+
+.codeutsava__section8-problemModal-body-img img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .codeutsava__section8-problems-container1 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+
+  .codeutsava__section8-problems-container2 {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+
+  .codeutsava__section8-problemModal-body h1{
+    font-size: 1rem;
+  }
+
+  .codeutsava__section8-problemModal-body p{
+    font-size: 0.5rem;
+  }
+
+  .codeutsava__section8-problemModal-body-img{
+    width: 200px;
+  }
+}
+
